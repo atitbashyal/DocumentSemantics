@@ -1,0 +1,3164 @@
+{
+  "document_id": "agenticframeworkfort2spar-andut4q",
+  "title": "AGENTICT$^2$S:Robust Text-to-SPARQL via Agentic Collaborative Reasoning over Heterogeneous Knowledge Graphs for the Circular Economy",
+  "source_path": "/Users/atitbashyal/Desktop/document-semantics-mvp/django_app/media/uploads/Agenticframeworkfort2spar_ANdUT4q.pdf",
+  "pages": [
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-1",
+      "page_number": 1,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-2",
+      "page_number": 2,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-3",
+      "page_number": 3,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-4",
+      "page_number": 4,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-5",
+      "page_number": 5,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-6",
+      "page_number": 6,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-7",
+      "page_number": 7,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-8",
+      "page_number": 8,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page_id": "agenticframeworkfort2spar-andut4q-page-9",
+      "page_number": 9,
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-0",
+      "title": "Front Matter",
+      "start_page": 1,
+      "order": 0
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-1",
+      "title": "Abstract",
+      "start_page": 1,
+      "order": 1
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-2",
+      "title": "Introduction",
+      "start_page": 1,
+      "order": 2
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-3",
+      "title": "arXiv:2508.01815v1 [cs.CL] 3 Aug 2025",
+      "start_page": 1,
+      "order": 3
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-4",
+      "title": "System Design",
+      "start_page": 2,
+      "order": 4
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-5",
+      "title": "Agent 2: Allocator",
+      "start_page": 3,
+      "order": 5
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-6",
+      "title": "Agent 5: Aggregator",
+      "start_page": 3,
+      "order": 6
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-7",
+      "title": "𝒈₁",
+      "start_page": 3,
+      "order": 7
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-8",
+      "title": "Agent 3: Synthesizer",
+      "start_page": 3,
+      "order": 8
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-9",
+      "title": "Fallback",
+      "start_page": 3,
+      "order": 9
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-10",
+      "title": "𝑨₁",
+      "start_page": 3,
+      "order": 10
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-11",
+      "title": "Combines {𝐴₁, … , 𝐴ₖ}",
+      "start_page": 3,
+      "order": 11
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-12",
+      "title": "User Input Query (Natural Language)",
+      "start_page": 3,
+      "order": 12
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-13",
+      "title": "Error",
+      "start_page": 3,
+      "order": 13
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-14",
+      "title": "Agent 4: Checker",
+      "start_page": 3,
+      "order": 14
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-15",
+      "title": "….…….",
+      "start_page": 3,
+      "order": 15
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-16",
+      "title": "Clarification & Supplement",
+      "start_page": 3,
+      "order": 16
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-17",
+      "title": "Agent 2: Allocator",
+      "start_page": 3,
+      "order": 17
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-18",
+      "title": "Agent 1: Parser",
+      "start_page": 3,
+      "order": 18
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-19",
+      "title": "Final Answer",
+      "start_page": 3,
+      "order": 19
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-20",
+      "title": "Agent 3: Synthesizer",
+      "start_page": 3,
+      "order": 20
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-21",
+      "title": "Fallback",
+      "start_page": 3,
+      "order": 21
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-22",
+      "title": "𝑨𝒌",
+      "start_page": 3,
+      "order": 22
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-23",
+      "title": "𝒈𝒌",
+      "start_page": 3,
+      "order": 23
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-24",
+      "title": "Error",
+      "start_page": 3,
+      "order": 24
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-25",
+      "title": "Agent 4: Checker",
+      "start_page": 3,
+      "order": 25
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-26",
+      "title": "Agent 1: Compositional Subgoal Parser Agent",
+      "start_page": 3,
+      "order": 26
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-27",
+      "title": "S𝑢𝑏𝑞𝑢𝑒𝑟𝑦",
+      "start_page": 3,
+      "order": 27
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-28",
+      "title": "𝑆𝑦𝑛𝑡𝑎𝑐𝑡𝑖𝑐𝐶𝑢𝑒𝑠+ 𝐷𝑜𝑚𝑎𝑖𝑛𝐻𝑒𝑢𝑟𝑖𝑠𝑡𝑖𝑐𝑠",
+      "start_page": 3,
+      "order": 28
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-29",
+      "title": "𝑔1",
+      "start_page": 3,
+      "order": 29
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-30",
+      "title": "𝐿𝐿𝑀𝑅𝑒𝑎𝑠𝑜𝑛𝑖𝑛𝑔",
+      "start_page": 3,
+      "order": 30
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-31",
+      "title": "𝑔2",
+      "start_page": 3,
+      "order": 31
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-32",
+      "title": "𝐼𝑛𝑝𝑢𝑡 𝑞𝑢𝑒𝑟𝑦",
+      "start_page": 3,
+      "order": 32
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-33",
+      "title": "Clarify",
+      "start_page": 3,
+      "order": 33
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-34",
+      "title": "… Ambiguous",
+      "start_page": 3,
+      "order": 34
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-35",
+      "title": "𝑔𝑛",
+      "start_page": 3,
+      "order": 35
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-36",
+      "title": "Figure 2: The overall workflow of the Compositional Subgoal Parser Agent.",
+      "start_page": 3,
+      "order": 36
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-37",
+      "title": "Compositional Subgoal Parser Agent",
+      "start_page": 3,
+      "order": 37
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-38",
+      "title": "𝑵𝒂𝒕𝒖𝒓𝒂𝒍𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒕𝒐𝑺𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆𝒅𝑸𝒖𝒆𝒓𝒚",
+      "start_page": 4,
+      "order": 38
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-39",
+      "title": "𝑄𝑢𝑒𝑟𝑦𝑆𝑘𝑒𝑙𝑒𝑡𝑜𝑛",
+      "start_page": 4,
+      "order": 39
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-40",
+      "title": "𝐿𝐿𝑀𝑅𝑒𝑎𝑠𝑜𝑛𝑖𝑛𝑔",
+      "start_page": 4,
+      "order": 40
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-41",
+      "title": "𝐷𝑒𝑠𝑖𝑔𝑛",
+      "start_page": 4,
+      "order": 41
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-42",
+      "title": "S𝑐ℎ𝑒𝑚𝑎 𝐺𝑟𝑜𝑢𝑛𝑑𝑖𝑛𝑔",
+      "start_page": 4,
+      "order": 42
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-43",
+      "title": "Agent 2: Hierarchical Alignment Allocator Agent",
+      "start_page": 4,
+      "order": 43
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-44",
+      "title": "𝑾𝒆𝒂𝒌−𝒕𝒐−𝑺𝒕𝒓𝒐𝒏𝒈𝑹𝒆𝒕𝒓𝒊𝒆𝒗𝒂𝒍𝑺𝒕𝒓𝒂𝒕𝒆𝒈𝒚",
+      "start_page": 4,
+      "order": 44
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-45",
+      "title": "𝑃𝑜𝑠𝑡-ℎ𝑜𝑐𝐷𝑒𝑐𝑜𝑑𝑖𝑛𝑔",
+      "start_page": 4,
+      "order": 45
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-46",
+      "title": "𝑊eak 𝑅etrieval",
+      "start_page": 4,
+      "order": 46
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-47",
+      "title": "𝑆trong 𝑅etrieval",
+      "start_page": 4,
+      "order": 47
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-48",
+      "title": "𝐺enerate 𝑆𝑃𝐴𝑅𝑄𝐿",
+      "start_page": 4,
+      "order": 48
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-49",
+      "title": "Retrieved",
+      "start_page": 4,
+      "order": 49
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-50",
+      "title": "Ontology",
+      "start_page": 4,
+      "order": 50
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-51",
+      "title": "Pool",
+      "start_page": 4,
+      "order": 51
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-52",
+      "title": "Related Ontology",
+      "start_page": 4,
+      "order": 52
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-53",
+      "title": "Allocate",
+      "start_page": 4,
+      "order": 53
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-54",
+      "title": "Knowledge Graph",
+      "start_page": 4,
+      "order": 54
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-55",
+      "title": "Database",
+      "start_page": 4,
+      "order": 55
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "start_page": 4,
+      "order": 56
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-57",
+      "title": "Table 2: EA on single-KG.",
+      "start_page": 6,
+      "order": 57
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-58",
+      "title": "Allocation Performance",
+      "start_page": 6,
+      "order": 58
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-59",
+      "title": "Ours",
+      "start_page": 6,
+      "order": 59
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-60",
+      "title": "R-Qwen3-32B",
+      "start_page": 6,
+      "order": 60
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-61",
+      "title": "Table 3: QSC on single-KG.",
+      "start_page": 6,
+      "order": 61
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-62",
+      "title": "0 20 40 60 80 100 Allocation Accuracy (%)",
+      "start_page": 6,
+      "order": 62
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-63",
+      "title": "Figure 5: Comparison of knowledge graph allocation performance across models.",
+      "start_page": 6,
+      "order": 63
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-64",
+      "title": "Ablation Study",
+      "start_page": 6,
+      "order": 64
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-65",
+      "title": "To assess the contribution of each component, we ablate the following modules",
+      "start_page": 6,
+      "order": 65
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-66",
+      "title": "𝐶𝑙𝑎𝑟𝑖𝑓𝑖𝑐𝑎𝑡𝑖𝑜𝑛",
+      "start_page": 7,
+      "order": 66
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-67",
+      "title": "𝐼𝑛𝑐𝑜𝑚𝑝𝑙𝑒𝑡𝑒𝐼𝑛𝑝𝑢𝑡",
+      "start_page": 7,
+      "order": 67
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-68",
+      "title": "𝑃𝑎𝑟𝑠𝑒𝑖𝑛𝑡𝑜𝑠𝑢𝑏𝑔𝑜𝑎𝑙𝑠",
+      "start_page": 7,
+      "order": 68
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-69",
+      "title": "Allocate KGs",
+      "start_page": 7,
+      "order": 69
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-70",
+      "title": "U-Pilot",
+      "start_page": 7,
+      "order": 70
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-71",
+      "title": "Error",
+      "start_page": 7,
+      "order": 71
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-72",
+      "title": "Figure 6: Example workflow of AGENTICT2S applied to a circular economy query.",
+      "start_page": 7,
+      "order": 72
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-73",
+      "title": "answer fusion in the overall pipeline.",
+      "start_page": 7,
+      "order": 73
+    },
+    {
+      "section_id": "agenticframeworkfort2spar-andut4q-section-74",
+      "title": "Qualitative Analysis",
+      "start_page": 7,
+      "order": 74
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p1-1",
+      "page_number": 1,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-0",
+      "section_title": "Front Matter",
+      "text": "AGENTICT2S: Robust Text-to-SPARQL via Agentic Collaborative Reasoning over Heterogeneous Knowledge Graphs for the Circular Economy",
+      "bbox": [
+        54.952999114990234,
+        98.21752166748047,
+        557.4090576171875,
+        130.34619140625
+      ],
+      "topics": [
+        "collaborative reasoning",
+        "collaborative reasoning heterogeneous",
+        "graphs circular",
+        "graphs circular economy",
+        "heterogeneous knowledge"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "Agentic Collaborative Reasoning",
+        "Circular Economy",
+        "Heterogeneous Knowledge Graphs",
+        "Robust Text",
+        "SPARQL"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p1-2",
+      "page_number": 1,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-0",
+      "section_title": "Front Matter",
+      "text": "Yang Zhao* Chengxiao Dai∗ Wei Zhuo Chuan Fu Tan Yue Xiu Dusit Niyato Jonathan Low Zhaozhi Eugene H.Z. Ho Daren Tan Zong Loong",
+      "bbox": [
+        83.85100555419922,
+        144.67080688476562,
+        528.151123046875,
+        172.068359375
+      ],
+      "topics": [
+        "tan",
+        "ho daren",
+        "ho daren tan",
+        "dusit",
+        "dusit niyato"
+      ],
+      "entities": [
+        "Chengxiao Dai",
+        "Dai∗ Wei Zhuo Chuan Fu",
+        "Ho Daren Tan Zong Loong",
+        "Tan Zong",
+        "Wei Zhuo Chuan Fu Tan Yue Xiu Dusit Niyato Jonathan Low Zhaozhi Eugene",
+        "Yang Zhao",
+        "Yang Zhao* Chengxiao",
+        "Zhaozhi Eugene"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p1-3",
+      "page_number": 1,
+      "order_in_page": 3,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-1",
+      "section_title": "Abstract",
+      "text": "Question answering over heterogeneous knowledge graphs (KGQA) involves reasoning across diverse schemas, incomplete alignments, and distributed data sources. Existing textto-SPARQL approaches rely on large-scale domain-specific fine-tuning or operate within single-graph settings, limiting their generalizability in low-resource domains and their ability to handle queries spanning multiple graphs. These challenges are particularly relevant in domains such as the circular economy, where information about classifications, processes, and emissions is distributed across independently curated knowledge graphs (KGs). We present AGENTICT2S, a modular framework that decomposes KGQA into subtasks managed by specialized agents responsible for retrieval, query generation, and verification. A scheduler assigns subgoals to different graphs using weak-to-strong alignment strategies. A two-stage verifier detects structurally invalid and semantically underspecified queries through symbolic validation and counterfactual consistency checks. Experiments on realworld circular economy KGs demonstrate that AGENTICT2S improves execution accuracy by 17.3% and triple level F1 by 25.4% over the best baseline, while reducing the average prompt length by 46.4%. These results demonstrate the benefits of agent-based schema-aware reasoning for scalable KGQA and support decision-making in sustainability domains through robust cross-graph reasoning.",
+      "bbox": [
+        63.96299743652344,
+        237.45199584960938,
+        282.5419006347656,
+        485.5216064453125
+      ],
+      "topics": [
+        "domains",
+        "graphs",
+        "kgqa",
+        "demonstrate",
+        "distributed"
+      ],
+      "entities": [
+        "17.3%",
+        "25.4%",
+        "46.4%",
+        "AGENTICT2S",
+        "F1",
+        "KGQA",
+        "SPARQL",
+        "two"
+      ],
+      "claims": [
+        "Method",
+        "ResearchObjective",
+        "Result"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p1-4",
+      "page_number": 1,
+      "order_in_page": 4,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-3",
+      "section_title": "arXiv:2508.01815v1 [cs.CL] 3 Aug 2025",
+      "text": "edge graphs (KGs), which offers improved precision and interpretability. However, existing systems often embed large subgraphs in prompts (Cui, Sun, and Hu 2024), increasing latency and exceeding context limits; rely on weakly supervised retrievers (Yasunaga et al. 2021); and couple retrieval, generation and validation into single-agent pipelines (He et al. 2024; Xu et al. 2024), reducing modularity and adaptability. In addition, even state-of-the-art models struggle to generate semantically correct SPARQL queries, particularly on unseen graphs (Meyer et al. 2024). SPARQL is a standardized query language for RDF-based KGs (W3C 2013), used to express structured queries involving logical conditions, joins, and filters. This work introduces AGENTICT2S, a modular framework for answering questions on heterogeneous KGs. The system decomposes a natural language query into sub-goals corresponding to reasoning operations such as entity lookup or comparison. Each subgoal is assigned to candidate graphs via schema alignment and retrieval history, translated into executable SPARQL using schema-guided decoding, and validated using symbolic checks and counterfactual consistency analysis. The architecture separates retrieval, generation, and verification into distinct agents to improve transparency, error isolation, and generalizability. To the best of our knowledge, this is the first formulation of text-to-SPARQL generation for KGQA over heterogeneous graphs as a multi-agent problem. The system consists of five agents, including subgoal decomposer, retriever allocator, SPARQL generator, dual-stage verifier, and result integrator, that coordinate to support compositional reasoning and robust query execution. The design is evaluated in the context of the circular economy, where reasoning over distributed emissions data and non-unified classification schemes requires schema-aware planning and verifiable synthesis (Atiku 2020).",
+      "bbox": [
+        319.5,
+        218.40748596191406,
+        558.0049438476562,
+        602.6298217773438
+      ],
+      "topics": [
+        "et al",
+        "graphs",
+        "sparql",
+        "retrieval generation",
+        "generation"
+      ],
+      "entities": [
+        "2013",
+        "2020",
+        "2021",
+        "2024",
+        "AGENTICT2S",
+        "Atiku",
+        "Cui, Sun",
+        "KGQA",
+        "Meyer et al",
+        "RDF",
+        "RDF-",
+        "SPARQL",
+        "W3C",
+        "Xu et al",
+        "Yasunaga et al",
+        "first",
+        "five"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p1-5",
+      "page_number": 1,
+      "order_in_page": 5,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-3",
+      "section_title": "arXiv:2508.01815v1 [cs.CL] 3 Aug 2025",
+      "text": "Large language models (LLMs) demonstrate strong performance in a range of natural language processing tasks (Min et al. 2023), but face limitations in knowledge-intensive settings. Because their outputs are based on pre-trained parameters, LLMs are prone to hallucination and may lack factual consistency (Ji et al. 2023). Retrieval-augmented generation (RAG) addresses this by incorporating external information at inference time (Lewis et al. 2020), although most RAG systems operate over unstructured text, which lacks the semantic structure required for accurate multi-hop reasoning. These limitations are critical in the circular economy, where answering queries requires reasoning over multiple heterogeneous KGs with inconsistent schemas. Structured retrieval methods such as GraphRAG (Ji et al. 2024) have been proposed to integrate LLMs with knowl-",
+      "bbox": [
+        54.0,
+        521.064697265625,
+        292.5050048828125,
+        684.8932495117188
+      ],
+      "topics": [
+        "et al",
+        "llms",
+        "ji et",
+        "ji et al",
+        "limitations"
+      ],
+      "entities": [
+        "2020",
+        "2023",
+        "2024",
+        "GraphRAG",
+        "Ji et al",
+        "Lewis et al",
+        "RAG"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p1-6",
+      "page_number": 1,
+      "order_in_page": 6,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-3",
+      "section_title": "arXiv:2508.01815v1 [cs.CL] 3 Aug 2025",
+      "text": "• This work formulates cross-graph question answering over heterogeneous KGs as a modular multi-agent process. The design addresses the limitations of monolithic text-to-SPARQL pipelines by separating retrieval, synthesis, and verification into distinct composable agents. This decomposition allows for interpretable reasoning, schema-level adaptability, and improved fault isolation.",
+      "bbox": [
+        323.9830322265625,
+        628.690185546875,
+        558.0044555664062,
+        704.4067993164062
+      ],
+      "topics": [
+        "distinct composable",
+        "distinct composable agents",
+        "composable agents",
+        "composable agents decomposition",
+        "improved fault"
+      ],
+      "entities": [
+        "SPARQL"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-1",
+      "page_number": 2,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-3",
+      "section_title": "arXiv:2508.01815v1 [cs.CL] 3 Aug 2025",
+      "text": "• The framework incorporates three key components: (i) a weak-to-strong alignment allocator for schema-driven graph selection, (ii) a pattern-based SPARQL synthesizer with template scaffolding and post-hoc grammar repair, and (iii) a dual-stage verifier combining symbolic validation and counterfactual consistency checks. These are instantiated as five specialized agents with different roles. • Experimental results in three real-world circular economy KGs show that the proposed method improves execution accuracy by 17.3% and triple level F1 by 25.4% over the best baseline, while reducing the average prompt length by 46.4%.",
+      "bbox": [
+        58.483001708984375,
+        56.40748596191406,
+        292.5045166015625,
+        189.72396850585938
+      ],
+      "topics": [
+        "components weak-to-strong",
+        "components weak-to-strong alignment",
+        "ii pattern-based",
+        "ii pattern-based sparql",
+        "iii"
+      ],
+      "entities": [
+        "17.3%",
+        "25.4%",
+        "46.4%",
+        "F1",
+        "SPARQL",
+        "five",
+        "three"
+      ],
+      "claims": [
+        "Result"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-2",
+      "page_number": 2,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-3",
+      "section_title": "arXiv:2508.01815v1 [cs.CL] 3 Aug 2025",
+      "text": "it reflects the intent of the question q and returns a complete and correct answer set A ⊆Ent, where Ent is the union of entity sets across all graphs in G. This task presents several challenges. The graphs in G may differ in schema, vocabulary, and structural representation, introducing substantial heterogeneity. Answering a question may require distributed reasoning, where information must be aggregated from multiple KGs. Furthermore, many KGQA benchmarks lack the gold-standard SPARQL annotations, limiting the feasibility of supervised learning. Finally, practical systems must meet efficiency requirements, making retrieval and query generation time sensitive. The objective is to develop a system that, given an input question q and a collection G of KGs, produces a query s such that executing s on the appropriate subset of G yields a correct and complete answer set A.",
+      "bbox": [
+        319.5,
+        56.17655944824219,
+        558.0051879882812,
+        234.02554321289062
+      ],
+      "topics": [
+        "ent",
+        "complete",
+        "question",
+        "correct",
+        "answer set"
+      ],
+      "entities": [
+        "Ent",
+        "KGQA",
+        "SPARQL"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-3",
+      "page_number": 2,
+      "order_in_page": 3,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-4",
+      "section_title": "System Design",
+      "text": "We present AGENTICT2S, a modular multi-agent framework to answer natural language questions on heterogeneous KGs. Unlike end-to-end GraphRAG pipelines (Han et al. 2024), which tightly link retrieval and generation in a single prompt-based step, AGENTICT2S separates the task into distinct components: subgoal decomposition, adaptive retrieval, query generation, verification, and answer aggregation. Each component is implemented as an independent agent with a clear input-output interface (Wu et al. 2025), allowing for parallelism, interpretability, and easier adaptation across domains. Given a question, the system first decomposes it into a sequence of subgoals. Each subgoal is then routed to a target KG selected based on schema compatibility and retrieval utility. Structured queries are generated under schema constraints and validated through a two-stage verification process. The resulting sub-answers are aggregated into a final response. The complete workflow is detailed in Algorithm 1.",
+      "bbox": [
+        319.49993896484375,
+        269.8036193847656,
+        558.0047607421875,
+        467.4153137207031
+      ],
+      "topics": [
+        "retrieval",
+        "answer",
+        "et al",
+        "verification",
+        "subgoal"
+      ],
+      "entities": [
+        "2024",
+        "2025",
+        "AGENTICT2S",
+        "Algorithm 1",
+        "GraphRAG",
+        "Han",
+        "KG",
+        "Wu et al",
+        "first",
+        "two"
+      ],
+      "claims": [
+        "ResearchObjective"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-4",
+      "page_number": 2,
+      "order_in_page": 4,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-4",
+      "section_title": "System Design",
+      "text": "Algorithm 1: AGENTICT2S Pipeline for Compositional KGQA",
+      "bbox": [
+        319.5,
+        484.6301574707031,
+        557.9995727539062,
+        506.9000549316406
+      ],
+      "topics": [
+        "compositional kgqa",
+        "pipeline",
+        "compositional",
+        "kgqa",
+        "algorithm"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "Algorithm 1: AGENTICT2S Pipeline for Compositional",
+        "KGQA"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-5",
+      "page_number": 2,
+      "order_in_page": 5,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-4",
+      "section_title": "System Design",
+      "text": "Require: Natural language question q, KGs G = G1, G2, . . . , Gn Ensure: Final answer set A",
+      "bbox": [
+        319.4999694824219,
+        511.5868225097656,
+        558.0018920898438,
+        543.8270263671875
+      ],
+      "topics": [
+        "ensure final",
+        "ensure final answer",
+        "final answer",
+        "final answer set",
+        "gn ensure"
+      ],
+      "entities": [
+        "G1",
+        "G2",
+        "Gn Ensure"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-6",
+      "page_number": 2,
+      "order_in_page": 6,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-4",
+      "section_title": "System Design",
+      "text": "Related Work RAG methods incorporate external information to improve the factual consistency of the language model output (Lewis et al. 2020; Gao et al. 2023). While effective for unstructured question answering, they assume flat input formats and are not well suited for tasks involving structured queries, multihop reasoning, or schema constraints. GraphRAG (Edge et al. 2024; Wu et al. 2024a) and related methods extend RAG by converting local graph neighborhoods into textual prompts. These methods retain some structural context but are limited by prompt length, formatting dependencies, and an assumption of a single underlying graph. Most also lack validation mechanisms for generated queries (Wang et al. 2024). Other work decomposes question answering into modular components for retrieval, reasoning, and execution (Tran et al. 2025; Barbosa, Santos, and Novais 2024). Multi-agent systems extend this idea by assigning subtasks to separate agents (Guo et al. 2024; Yang et al. 2025). For example, ReAgent (Zhao et al. 2025) applies local and global backtracking in multi-hop QA over text. These systems are typically applied to unstructured input and do not address structured query generation. General purpose agent frameworks such as ReAct (Yao et al. 2023), AutoGen (Wu et al. 2024b), CAMEL (Li et al. 2023), and MetaGPT (Hong et al. 2023) implement rolebased decomposition for planning and tool interaction across tasks. These methods have been applied to information retrieval, decision-making, and code synthesis in unstructured or semi-structured settings. They are not designed for structured KGQA and lack support for schema-aware reasoning or symbolic query verification.",
+      "bbox": [
+        54.0,
+        201.56805419921875,
+        292.5046691894531,
+        556.8117065429688
+      ],
+      "topics": [
+        "et al",
+        "methods",
+        "unstructured",
+        "extend",
+        "applied"
+      ],
+      "entities": [
+        "2020",
+        "2023",
+        "2024",
+        "2024a",
+        "2024b",
+        "2025",
+        "AutoGen",
+        "Barbosa",
+        "CAMEL",
+        "Gao",
+        "Guo et al",
+        "Hong et al",
+        "KGQA",
+        "Lewis et al",
+        "Li et al",
+        "QA",
+        "RAG",
+        "ReAct",
+        "ReAgent",
+        "Related Work",
+        "Santos",
+        "Tran et al",
+        "Wang",
+        "Wu",
+        "Wu et al",
+        "Yang",
+        "Yao et al",
+        "Zhao et al",
+        "al"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-7",
+      "page_number": 2,
+      "order_in_page": 7,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-4",
+      "section_title": "System Design",
+      "text": "1: g1, g2, . . . , gk ←SUBGOAL PARSER(q) 2: for each subgoal gi do 3: Ri ←CANDIDATE RETRIEVERS(gi, G) 4: Gi ←HIERARCHICAL ALLOCATOR(gi, Ri) 5: qi ←SPARQL SYNTHESIZER(gi, Gi) 6: if VERIFIER(qi, Gi) passes then 7: Ai ←EXECUTE QUERY(qi, Gi) 8: else 9: Ai ←FALLBACK OR SKIP(gi) 10: end if 11: end for 12: A ←CONSENSUS AGGREGATOR(A1, A2, . . . , Ak) 13: return A",
+      "bbox": [
+        319.9959716796875,
+        544.4637451171875,
+        545.4164428710938,
+        686.2020874023438
+      ],
+      "topics": [
+        "end",
+        "qi gi",
+        "gi gi",
+        "gi ri",
+        "subgoal"
+      ],
+      "entities": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "A1",
+        "A2",
+        "AGGREGATOR",
+        "ALLOCATOR",
+        "ALLOCATOR(gi",
+        "Ak",
+        "CANDIDATE",
+        "CONSENSUS",
+        "EXECUTE",
+        "FALLBACK",
+        "HIERARCHICAL",
+        "OR",
+        "PARSER",
+        "QUERY",
+        "RETRIEVERS",
+        "Ri",
+        "SKIP",
+        "SPARQL",
+        "SUBGOAL",
+        "SYNTHESIZER",
+        "VERIFIER",
+        "VERIFIER(qi"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p2-8",
+      "page_number": 2,
+      "order_in_page": 8,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-4",
+      "section_title": "System Design",
+      "text": "Problem Formulation Given a natural language question q, the task is to generate an executable SPARQL query s that retrieves a complete and semantically correct answer set A from a subset of a heterogeneous KG collection G = {G1, G2, . . . , Gn}. Each KG Gi ∈G consists of entities and relations represented as triples (h, r, t), where h and t are entities, and r is a relation type (Yih et al. 2015; Saxena, Tripathi, and Talukdar 2020). A valid SPARQL query s is expected to satisfy two properties. First, it must be executable, meaning it can be evaluated on at least one graph Gi ∈G without syntax or schema violations. Second, it must be semantically accurate, in that",
+      "bbox": [
+        54.0,
+        568.6558227539062,
+        292.50469970703125,
+        704.4066772460938
+      ],
+      "topics": [
+        "executable",
+        "sparql query",
+        "entities",
+        "semantically",
+        "sparql"
+      ],
+      "entities": [
+        "2015",
+        "First",
+        "G1",
+        "G2",
+        "KG",
+        "Problem Formulation Given",
+        "SPARQL",
+        "Saxena",
+        "Second",
+        "Talukdar 2020",
+        "Tripathi",
+        "at least one",
+        "two"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p3-1",
+      "page_number": 3,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-19",
+      "section_title": "Final Answer",
+      "text": "Parses 𝑞into structured subgoals: {𝑔₁, 𝑔₂, … , 𝑔ₖ}",
+      "bbox": [
+        92.12428283691406,
+        223.7555389404297,
+        153.76072692871094,
+        237.94015502929688
+      ],
+      "topics": [
+        "parses",
+        "structured subgoals",
+        "subgoals",
+        "structured",
+        "handle queries spanning"
+      ],
+      "entities": [],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p3-2",
+      "page_number": 3,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-25",
+      "section_title": "Agent 4: Checker",
+      "text": "Figure 1: Overview of the AGENTICT2S framework. The system decomposes a natural language query into subgoals, allocates them to relevant graphs, generates SPARQL queries, verifies their correctness, and integrates the answers.",
+      "bbox": [
+        54.0,
+        330.61614990234375,
+        557.9955444335938,
+        352.8860778808594
+      ],
+      "topics": [
+        "integrates",
+        "integrates answers",
+        "figure overview",
+        "figure overview framework",
+        "framework decomposes natural"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "SPARQL"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p3-3",
+      "page_number": 3,
+      "order_in_page": 3,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-26",
+      "section_title": "Agent 1: Compositional Subgoal Parser Agent",
+      "text": "Parses Query 𝑞into structured subgoals: {𝒈₁, 𝒈₂, … , 𝒈ₖ}",
+      "bbox": [
+        88.53205871582031,
+        391.0046081542969,
+        285.83642578125,
+        401.09478759765625
+      ],
+      "topics": [
+        "parses",
+        "structured subgoals",
+        "subgoals",
+        "structured",
+        "query"
+      ],
+      "entities": [
+        "Parses Query",
+        "𝒈₂"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p3-4",
+      "page_number": 3,
+      "order_in_page": 4,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-30",
+      "section_title": "𝐿𝐿𝑀𝑅𝑒𝑎𝑠𝑜𝑛𝑖𝑛𝑔",
+      "text": "prompt the user for clarification to ensure subgoal completeness and correctness. This approach does not require task-specific training data and is generalized across heterogeneous KGs. By decomposing complex queries into semantically independent components, the parser simplifies the reasoning process and enhances coordination among downstream agents.",
+      "bbox": [
+        319.5,
+        376.0994567871094,
+        558.0050048828125,
+        451.8160095214844
+      ],
+      "topics": [
+        "heterogeneous kgs decomposing",
+        "components parser",
+        "components parser simplifies",
+        "does",
+        "does require"
+      ],
+      "entities": [],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p3-5",
+      "page_number": 3,
+      "order_in_page": 5,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-37",
+      "section_title": "Compositional Subgoal Parser Agent",
+      "text": "Hierarchical Alignment Allocator Agent Each subgoal is assigned to a relevant KG by the Hierarchical Alignment Allocator Agent (Algorithm 1, line4), which selects candidate graphs through a two-stage retrieval process: coarse-grained filtering and fine-grained schema alignment based on the subgoal’s intent and constraints (Figure3). In the weak retrieval stage, the allocator conducts a vector similarity search over embedded metadata, including schema summaries and domain labels, to identify a subset of candidate KGs. For each selected graph, a secondary search is conducted over its internal source files, such as ontology documents and schema descriptions, to locate relevant terms associated with the subgoal. In the strong retrieval stage, schema-level alignment is performed on the top-ranked candidates. This step extracts predicates, class hierarchies, and domain-range constraints to assess whether the graph’s structure is compatible with the subgoal. The KG pool and metadata index support incremental updates, allowing the system to incorporate new resources without reprocessing. As additional KGs and metadata become available, the allocator adjusts its retrieval strategy to maintain schema alignment. Retrieval decisions are further",
+      "bbox": [
+        319.5,
+        461.2669677734375,
+        558.0050659179688,
+        704.4069213867188
+      ],
+      "topics": [
+        "alignment",
+        "metadata",
+        "retrieval",
+        "allocator",
+        "subgoal"
+      ],
+      "entities": [
+        "Algorithm 1, line4",
+        "Hierarchical Alignment Allocator Agent",
+        "Hierarchical Alignment Allocator Agent Each",
+        "KG",
+        "two"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p3-6",
+      "page_number": 3,
+      "order_in_page": 6,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-37",
+      "section_title": "Compositional Subgoal Parser Agent",
+      "text": "The Compositional Subgoal Parser Agent initiates the AGENTICT2S pipeline (Algorithm 1, line 1) by decomposing a natural language question into a sequence of subgoals, each corresponding to a basic reasoning operation such as entity retrieval, condition filtering, or aggregation (Figure 2). The parser employs a rule-based strategy that combines shallow syntactic analysis with domain-specific heuristics. Structured prompts are used to guide a language model in identifying syntactic patterns, segmenting the question into subgoals, and assigning intent labels based on linguistic structure. The agent also includes mechanisms to detect ambiguity or underspecified semantics; when triggered, these",
+      "bbox": [
+        53.99999237060547,
+        573.8055419921875,
+        292.5046691894531,
+        704.4070434570312
+      ],
+      "topics": [
+        "parser",
+        "syntactic",
+        "subgoals",
+        "agent",
+        "language"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "Algorithm 1",
+        "The Compositional Subgoal Parser",
+        "The Compositional Subgoal Parser Agent"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-1",
+      "page_number": 4,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-37",
+      "section_title": "Compositional Subgoal Parser Agent",
+      "text": "Agent 3: Pattern-Driven SPARQL Synthesizer Agent",
+      "bbox": [
+        356.5089111328125,
+        57.630775451660156,
+        548.822998046875,
+        67.9322509765625
+      ],
+      "topics": [
+        "agent",
+        "pattern-driven",
+        "pattern-driven sparql",
+        "pattern-driven sparql synthesizer",
+        "sparql synthesizer agent"
+      ],
+      "entities": [
+        "Pattern-Driven",
+        "SPARQL",
+        "Synthesizer Agent"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-2",
+      "page_number": 4,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-38",
+      "section_title": "𝑵𝒂𝒕𝒖𝒓𝒂𝒍𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒕𝒐𝑺𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆𝒅𝑸𝒖𝒆𝒓𝒚",
+      "text": "refined using utility scores from downstream verification, enabling the system to respond to schema drift and improve retrieval precision in complex queries.",
+      "bbox": [
+        54.0,
+        56.40748596191406,
+        292.504638671875,
+        88.28707885742188
+      ],
+      "topics": [
+        "downstream verification",
+        "downstream verification enabling",
+        "drift improve",
+        "drift improve retrieval",
+        "improve retrieval precision"
+      ],
+      "entities": [],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-3",
+      "page_number": 4,
+      "order_in_page": 3,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-54",
+      "section_title": "Knowledge Graph",
+      "text": "Figure 4: The overall workflow of the Pattern-Driven SPARQL Synthesizer Agent.",
+      "bbox": [
+        319.5,
+        212.8584747314453,
+        558.0046997070312,
+        233.78005981445312
+      ],
+      "topics": [
+        "overall",
+        "overall workflow",
+        "figure overall",
+        "figure overall workflow",
+        "pattern-driven"
+      ],
+      "entities": [
+        "SPARQL",
+        "Synthesizer Agent",
+        "the Pattern-Driven SPARQL Synthesizer"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-4",
+      "page_number": 4,
+      "order_in_page": 4,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-55",
+      "section_title": "Database",
+      "text": "Figure 3: The overall workflow of the Hierarchical Alignment Allocator Agent.",
+      "bbox": [
+        54.0,
+        254.34547424316406,
+        292.5046081542969,
+        275.2670593261719
+      ],
+      "topics": [
+        "hierarchical alignment",
+        "hierarchical alignment allocator",
+        "overall",
+        "overall workflow",
+        "alignment allocator agent"
+      ],
+      "entities": [
+        "Hierarchical Alignment Allocator Agent"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-5",
+      "page_number": 4,
+      "order_in_page": 5,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Dual-Stage Consistency Checker Agent To safeguard against execution errors and underspecified queries, the Consistency Checker Agent (Algorithm 1, line 6) applies a two-stage verification process prior to query execution. This agent functions as a quality control layer that filters out syntactically invalid or semantically ambiguous queries before they reach the execution stage. In the first stage, symbolic validation is applied to assess syntactic correctness, predicate usage, and type compatibility with the schema of the target KG. The agent also performs a preliminary execution check to ensure that the query yields a non-empty result under current graph conditions. In the second stage, counterfactual testing is used to evaluate the semantic specificity. The agent systematically perturbs the selected query components, such as entities, filters, or predicates, and compares the result sets. Queries that produce unchanged outputs across such perturbations are flagged as overly general or underspecified. Only queries that pass both checks are forwarded for execution; others are revised or discarded. This mechanism improves the reliability of the final result by enforcing both structural validity and semantic precision.",
+      "bbox": [
+        319.5,
+        256.1990051269531,
+        558.0049438476562,
+        500.1637878417969
+      ],
+      "topics": [
+        "execution",
+        "agent",
+        "result",
+        "stage",
+        "queries"
+      ],
+      "entities": [
+        "Algorithm 1",
+        "Consistency Checker Agent",
+        "KG",
+        "Stage Consistency Checker Agent To",
+        "first",
+        "second",
+        "two"
+      ],
+      "claims": [
+        "Result"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-6",
+      "page_number": 4,
+      "order_in_page": 6,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Multi-Graph Consensus Aggregator Agent Consensus Aggregator Agent (Algorithm 1, line 12) consolidates partial query results retrieved from multiple KGs. The agent first performs entity alignment across heterogeneous sources to resolve equivalence and redundancy. It then generates a unified natural language response by merging sub-answers using an LLM. This aggregation step ensures that the final output is consistent across sources and robust to variations in schema or terminology.",
+      "bbox": [
+        319.5,
+        510.3437194824219,
+        558.0046997070312,
+        611.8187866210938
+      ],
+      "topics": [
+        "consensus aggregator agent",
+        "aggregator agent",
+        "consensus",
+        "consensus aggregator",
+        "aggregator"
+      ],
+      "entities": [
+        "12",
+        "Algorithm 1",
+        "Graph Consensus Aggregator Agent Consensus Aggregator Agent",
+        "LLM",
+        "Multi-Graph Consensus",
+        "first"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-7",
+      "page_number": 4,
+      "order_in_page": 7,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "The Pattern-Driven SPARQL Synthesizer Agent (Algorithm 1, line 5) generates executable SPARQL queries from verified subgoals in three stages: query skeleton design, schema grounding, and post-hoc decoding (Figure 4). In the query skeleton design stage, the agent selects a query template from a predefined library based on the subgoal’s intent, such as entity retrieval, predicate filtering, or attribute matching. Each template represents an abstract SPARQL pattern and is parameterized with schema elements obtained from the previous agent. The template is instantiated with these elements to produce an initial query structure that is consistent with the schema and semantics of the target KG. The schema grounding stage refines this structure by incorporating ontology-level constraints, including predicate types, class hierarchies, and domain-range specifications. This step replaces generic placeholders with concrete schema components and enforces compatibility between entities, relations, and types defined in the graph. The resulting query is semantically coherent and structurally valid within the context of the selected KG. To ensure reliability under diverse query conditions, the final stage, post-hoc decoding, serves as a modelagnostic validation layer that enforces structural and semantic correctness. Operating independently of the generation model, it systematically verifies syntax, resolves prefixes, and checks predicate usage, variable bindings, and schema alignment. In addition, it identifies query structures that are prone to execution failure, such as those that produce empty answer sets or violating ontology constraints. By applying targeted corrections only when necessary, post-hoc decoding provides a final safeguard, producing SPARQL queries that are not only valid and executable, but also resilient to schema variability across KGs.",
+      "bbox": [
+        53.99998474121094,
+        326.990478515625,
+        292.5047607421875,
+        704.40673828125
+      ],
+      "topics": [
+        "schema",
+        "query",
+        "post-hoc decoding",
+        "template",
+        "predicate"
+      ],
+      "entities": [
+        "Algorithm 1",
+        "KG",
+        "SPARQL",
+        "Synthesizer Agent",
+        "The Pattern",
+        "The Pattern-Driven SPARQL Synthesizer",
+        "three"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p4-8",
+      "page_number": 4,
+      "order_in_page": 8,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Complexity Analysis For a query decomposed into k sub-goals, the end-to-end work of Algorithm 1 is O(k) \u0002 |q| + n + Pp j=1|Sj| + BL + m Texec + |Gj| \u0003 , where |q| is the question length, n the total number of KGs, p≪n the candidates that survive weak-tier retrieval, Sj the schema slice of graph Gj, B and L the beam width and decoded length in the synthesiser, m the",
+      "bbox": [
+        319.5,
+        621.998779296875,
+        558.0030517578125,
+        704.40673828125
+      ],
+      "topics": [
+        "length",
+        "end-to-end work",
+        "end-to-end work algorithm",
+        "beam",
+        "beam width"
+      ],
+      "entities": [
+        "+ n + Pp",
+        "Algorithm 1",
+        "BL",
+        "Complexity Analysis For",
+        "Texec + |Gj| \u0003"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-1",
+      "page_number": 5,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "counter-factual checks in the verifier, and Texec the cost of one SPARQL evaluation on the executed graph of size |Gj|. All stages are embarrassingly parallel across sub-goals and graphs, so wall-clock latency is dominated by a handful of LLM calls and at most k verified query executions.",
+      "bbox": [
+        54.0,
+        56.17692565917969,
+        292.50469970703125,
+        110.20504760742188
+      ],
+      "topics": [
+        "dominated",
+        "dominated handful",
+        "dominated handful llm",
+        "embarrassingly",
+        "embarrassingly parallel"
+      ],
+      "entities": [
+        "LLM",
+        "SPARQL",
+        "Texec",
+        "one",
+        "|Gj|"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-2",
+      "page_number": 5,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "• Reasoning-Augmented LLMs. The same models are evaluated with chain-of-thought s prompting (Wei et al. 2022) and self-ask prompting (Press et al. 2022) to elicit intermediate reasoning steps prior to query generation. • Agent Controllers. General-purpose multi-agent frameworks, including ReAct (Yao et al. 2023) and AutoGen (Wu et al. 2024b), are combined with LLaMA3 and Qwen3. These systems define planning and execution roles, but do not incorporate symbolic verification or schema-guided generation.",
+      "bbox": [
+        323.98297119140625,
+        56.316158294677734,
+        558.00439453125,
+        167.86062622070312
+      ],
+      "topics": [
+        "et al",
+        "prompting",
+        "generation",
+        "including react",
+        "including react yao"
+      ],
+      "entities": [
+        "2022",
+        "2023",
+        "2024b",
+        "Agent Controllers",
+        "AutoGen",
+        "LLaMA3",
+        "Qwen3",
+        "ReAct",
+        "Wei et al",
+        "Wu et al",
+        "Yao et al"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-3",
+      "page_number": 5,
+      "order_in_page": 3,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Evaluation Metrics We evaluated model performance using four metrics: execution accuracy (EA), query syntax correctness (QSC), triplelevel F1 (TF1), and average token usage (ATU). EA measures whether the generated SPARQL query executes without error and returns an answer set that matches the gold standard. QSC reflects the proportion of syntactically valid queries based on Apache Jena parsing. TF1 computes microaveraged F1 over triple patterns in the WHERE clause, ignoring variable renaming and FILTER expressions. ATU reports the average number of tokens used per prediction as a proxy for generation efficiency.",
+      "bbox": [
+        319.49993896484375,
+        178.60459899902344,
+        558.0046997070312,
+        313.4775085449219
+      ],
+      "topics": [
+        "atu",
+        "metrics",
+        "average",
+        "qsc",
+        "ignoring"
+      ],
+      "entities": [
+        "ATU",
+        "Apache Jena",
+        "EA",
+        "Evaluation Metrics We",
+        "F1",
+        "FILTER",
+        "QSC",
+        "SPARQL",
+        "TF1",
+        "WHERE",
+        "four"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-4",
+      "page_number": 5,
+      "order_in_page": 4,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Experiments Experimental Setup We evaluate AGENTICT2S and all baselines on a standardized text-to-SPARQL generation task, where each system receives a natural language question and generates a SPARQL query, which is executed against the relevant KGs. AGENTICT2S runs in a hybrid setup that combines local model inference with API-based access to LLMs. The system is implemented using the LangGraph framework (LangGraph Contributors 2024), which supports agent coordination, intermediate state tracking, and structured execution flow. Local components include lightweight models for schema retrieval, subgoal parsing, and triple pattern scoring, executed on a workstation with four NVIDIA RTX 4090 Ti GPU. For language generation tasks that require larger context and structured decoding, we use LLaMA3-70B and LLaMA3.3-70B (Touvron et al. 2024), Qwen3-32b and QwQ-32b (Qwen Team 2024) via Groq API (Groq, Inc. 2024). The remaining models are accessed via their official APIs. All models are evaluated in zero-shot mode with a fixed temperature of 0.7 and no task-specific fine-tuning.",
+      "bbox": [
+        53.99998474121094,
+        121.11711883544922,
+        292.50506591796875,
+        368.8797912597656
+      ],
+      "topics": [
+        "setup",
+        "models",
+        "groq",
+        "langgraph",
+        "executed"
+      ],
+      "entities": [
+        "0.7",
+        "2024",
+        "AGENTICT2S",
+        "API",
+        "API-",
+        "Experiments Experimental Setup",
+        "Experiments Experimental Setup We",
+        "GPU",
+        "Groq API",
+        "Groq, Inc.",
+        "LangGraph",
+        "LangGraph Contributors 2024",
+        "NVIDIA",
+        "QwQ-32b",
+        "Qwen Team",
+        "Qwen3-32b",
+        "RTX",
+        "SPARQL",
+        "Touvron",
+        "four",
+        "zero"
+      ],
+      "claims": [
+        "Method"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-5",
+      "page_number": 5,
+      "order_in_page": 5,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Main Results Table 1 reports the performance of all baselines and agent-based systems across EA, QSC, TF1, and ATU. AGENTICT2S outperforms all models, achieving 72.43% EA, 76.21% QSC, and 83.68% TF1. These correspond to relative gains of 17.3% in EA and 25.4% in TF1 over the strongest LLM baseline, V-L-GPT-4O, which reaches 55.15% EA and 58.32% TF1.",
+      "bbox": [
+        319.49993896484375,
+        324.2214660644531,
+        558.004638671875,
+        415.2583923339844
+      ],
+      "topics": [
+        "ea qsc",
+        "qsc",
+        "ea qsc atu",
+        "ea qsc correspond",
+        "ea strongest"
+      ],
+      "entities": [
+        "17.3%",
+        "25.4%",
+        "55.15%",
+        "58.32%",
+        "72.43%",
+        "76.21%",
+        "83.68%",
+        "AGENTICT2S",
+        "ATU",
+        "EA",
+        "LLM",
+        "Main Results Table",
+        "QSC",
+        "TF1",
+        "V-L-GPT-4O"
+      ],
+      "claims": [
+        "Result"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-6",
+      "page_number": 5,
+      "order_in_page": 6,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Datasets and Evaluation Settings We evaluated three RDF KGs related to industrial resource exchanges in the circular economy domain, all curated inhouse. Each KG differs in schema complexity and coverage.",
+      "bbox": [
+        53.99998474121094,
+        378.6027526855469,
+        292.5046691894531,
+        424.7827453613281
+      ],
+      "topics": [
+        "circular economy domain",
+        "complexity coverage",
+        "domain curated",
+        "domain curated inhouse",
+        "economy domain"
+      ],
+      "entities": [
+        "Evaluation Settings We",
+        "KG",
+        "RDF",
+        "three"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-7",
+      "page_number": 5,
+      "order_in_page": 7,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Token Efficiency. Despite using structured decoding and verification, AGENTICT2S remains efficient, averaging 875 tokens per example. This represents a 46.4% reduction in token usage compared to V-LLAMA3.3-70B (1632 tokens), while achieving higher performance across all metrics.",
+      "bbox": [
+        319.50006103515625,
+        422.69683837890625,
+        558.0046997070312,
+        476.5863342285156
+      ],
+      "topics": [
+        "tokens",
+        "token",
+        "higher performance",
+        "higher performance metrics",
+        "averaging"
+      ],
+      "entities": [
+        "1632",
+        "46.4%",
+        "875",
+        "AGENTICT2S",
+        "Token Efficiency",
+        "V-LLAMA3"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-8",
+      "page_number": 5,
+      "order_in_page": 8,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Comparison to Reasoning-Augmented LLMs. Among chain-of-thought–based baselines, R-L-DEEPSEEK-R1 achieves the best results (50.32% EA, 52.18% TF1) but remains 22% behind our framework in EA. This highlights the limitations of prompting alone in capturing structural and semantic constraints across KGs.",
+      "bbox": [
+        319.5001220703125,
+        484.0247802734375,
+        558.0046997070312,
+        548.8732299804688
+      ],
+      "topics": [
+        "highlights",
+        "highlights limitations",
+        "highlights limitations prompting",
+        "ea highlights",
+        "ea highlights limitations"
+      ],
+      "entities": [
+        "22%",
+        "50.32%",
+        "52.18%",
+        "EA",
+        "R-L-DEEPSEEK-R1",
+        "Reasoning-Augmented",
+        "TF1"
+      ],
+      "claims": [
+        "Result"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-9",
+      "page_number": 5,
+      "order_in_page": 9,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "• German-IS. This dataset (8,649 triples) models 265 exchange cases from a national German program. Entities represent industrial actors and resources, annotated with multiple classification codes. • EU-Pilot. This dataset (11,810 triples) covers 305 cases from a European project. It includes structured metadata and is annotated with standardized waste classification codes. • Waste-Ledger. This dataset (52,402 triples) contains 1,727 instances of waste and resource flows across Europe, including quantitative attributes. The benchmark consists of 328 queries spanning both single-KG and cross-KG settings, curated from three circular economy knowledge graphs. The models are evaluated in three random seeds; we report mean ± standard deviation.",
+      "bbox": [
+        53.9999885559082,
+        429.50518798828125,
+        292.504638671875,
+        600.8506469726562
+      ],
+      "topics": [
+        "dataset",
+        "dataset triples",
+        "triples",
+        "annotated",
+        "cases"
+      ],
+      "entities": [
+        "1,727",
+        "11,810",
+        "265",
+        "305",
+        "328",
+        "52,402",
+        "8,649",
+        "EU-",
+        "EU-Pilot",
+        "Europe",
+        "European",
+        "German",
+        "IS",
+        "KG",
+        "three"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-10",
+      "page_number": 5,
+      "order_in_page": 10,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Baselines We compare against three categories of baselines:",
+      "bbox": [
+        53.9999885559082,
+        610.5736694335938,
+        252.1959991455078,
+        634.8356323242188
+      ],
+      "topics": [
+        "baselines",
+        "baselines compare",
+        "baselines compare categories",
+        "categories",
+        "categories baselines"
+      ],
+      "entities": [
+        "Baselines We",
+        "three"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-11",
+      "page_number": 5,
+      "order_in_page": 11,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Knowledge Graph Allocation. We evaluate the allocator’s effectiveness by measuring the proportion of subgoals routed to a graph that actually contains the gold answer. As shown in Figure 5, AGENTICT2S attains the highest allocation accuracy, exceeding the strongest baseline (DeepSeekR1) by over 10%. This precision directly impacts EA: correctly routed subgoals are more likely to match relevant schemas, leading to higher query validity and fewer empty results.",
+      "bbox": [
+        319.5001525878906,
+        556.3117065429688,
+        558.0048217773438,
+        654.0372314453125
+      ],
+      "topics": [
+        "routed",
+        "allocation",
+        "subgoals",
+        "graph",
+        "higher query"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "EA",
+        "Knowledge Graph Allocation",
+        "over 10%",
+        "relevant schemas"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-12",
+      "page_number": 5,
+      "order_in_page": 12,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Cross-KG Robustness. Tables 2 and Table 3 present the EA and QSC scores per graph. AGENTICT2S consistently leads across all three graphs. On German-IS and EU-Pilot, gains are attributed to improved subgoal decomposition and",
+      "bbox": [
+        319.50018310546875,
+        661.4757080078125,
+        558.0047607421875,
+        704.40625
+      ],
+      "topics": [
+        "improved subgoal",
+        "improved subgoal decomposition",
+        "ea qsc scores",
+        "consistently",
+        "consistently leads"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "Cross-KG Robustness",
+        "EA",
+        "EU-",
+        "EU-Pilot",
+        "German",
+        "IS",
+        "KG",
+        "On German",
+        "QSC",
+        "three"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p5-13",
+      "page_number": 5,
+      "order_in_page": 13,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "• Zero-Shot LLMs. Models prompted to generate SPARQL from natural language, without taskspecific fine-tuning. This includes LLaMA3-70B and LLaMA3.3-70B (Touvron et al. 2024), Qwen3-32b and QwQ-32b (Qwen Team 2024), DeepSeek-V3 (Liu et al. 2024), and GPT-4o (OpenAI 2024).",
+      "bbox": [
+        58.48298645019531,
+        639.55810546875,
+        292.5042419433594,
+        704.4066772460938
+      ],
+      "topics": [
+        "et al",
+        "includes touvron",
+        "includes touvron et",
+        "et al gpt-",
+        "fine-tuning includes"
+      ],
+      "entities": [
+        "2024",
+        "DeepSeek-V3",
+        "GPT-",
+        "LLaMA3-70B",
+        "Liu et al",
+        "QwQ-32b",
+        "Qwen Team",
+        "Qwen Team 2024",
+        "Qwen3-32b",
+        "SPARQL",
+        "Touvron",
+        "V3"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-1",
+      "page_number": 6,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Table 1: Performance comparison of different model configurations on structured KGQA. AGENTICT2S achieves the highest accuracy across all metrics while maintaining lower token usage.",
+      "bbox": [
+        54.0,
+        53.446128845214844,
+        557.9959106445312,
+        75.71707153320312
+      ],
+      "topics": [
+        "highest accuracy",
+        "highest accuracy metrics",
+        "comparison different",
+        "comparison different model",
+        "configurations"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "KGQA"
+      ],
+      "claims": [
+        "Result"
+      ]
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-2",
+      "page_number": 6,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "V-LLaMA3-70B 10.12 ± 2.45 15.47 ± 3.12 18.36 ± 2.78 V-LLaMA3.3-70B 12.28 ± 2.13 18.65 ± 3.08 10.52 ± 2.33 1632 V-L-GPT-4o 55.15 ± 1.31 60.04 ± 0.56 58.32 ± 1.12 (± 110) V-L-DeepSeek-V3 45.74 ± 1.22 50.19 ± 1.41 47.09 ± 1.13",
+      "bbox": [
+        126.60700225830078,
+        105.86177825927734,
+        479.992431640625,
+        149.06106567382812
+      ],
+      "topics": [
+        "v-l-gpt- v-l-deepseek-",
+        "v-l-deepseek-",
+        "v- v-l-gpt- v-l-deepseek-",
+        "v- v-l-gpt-",
+        "v- v- v-l-gpt-"
+      ],
+      "entities": [
+        "0.56 58.32",
+        "1.12",
+        "1.13",
+        "1.22 50.19",
+        "1.31 60.04",
+        "1.41 47.09",
+        "10.12",
+        "10.52",
+        "110",
+        "12.28",
+        "2.13 18.65",
+        "2.33",
+        "2.45 15.47",
+        "2.78 V-LLaMA3.3-",
+        "3.08",
+        "3.12 18.36",
+        "45.74",
+        "55.15",
+        "V-",
+        "V-L-",
+        "V-L-GPT-",
+        "V3"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-3",
+      "page_number": 6,
+      "order_in_page": 3,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "R-Qwen3-32B 40.25 ± 1.05 45.68 ± 1.82 42.72 ± 1.01 1632 R-QwQ-32B 35.67 ± 1.01 40.31 ± 0.75 38.25 ± 0.89 R-L-DeepSeek-R1 50.32 ± 1.14 55.21 ± 1.22 52.18 ± 0.07 (± 110)",
+      "bbox": [
+        126.60700225830078,
+        154.49977111816406,
+        479.992431640625,
+        186.74008178710938
+      ],
+      "topics": [
+        "r- r-qwq-",
+        "r- r-qwq- r-l-deepseek-",
+        "r-qwq-",
+        "r-qwq- r-l-deepseek-",
+        "r-l-deepseek-"
+      ],
+      "entities": [
+        "0.07",
+        "0.75 38.25",
+        "0.89",
+        "1.01 1632",
+        "1.01 40.31",
+        "1.05",
+        "1.14 55.21",
+        "1.82 42.72",
+        "110",
+        "35.67",
+        "40.25",
+        "45.68",
+        "50.32",
+        "52.18",
+        "R-",
+        "R-L-",
+        "R1"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-4",
+      "page_number": 6,
+      "order_in_page": 4,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "A-ReAct+LLaMA3-70B 28.52 ± 1.03 37.33 ± 1.74 33.25 ± 0.98 A-ReAct+Qwen3-32B 47.13 ± 1.45 54.65 ± 2.01 52.30 ± 1.88 1518 A-AutoGen+LLaMA3-70B 31.21 ± 2.17 33.02 ± 0.89 37.14 ± 1.06 (± 110) A-AutoGen+Qwen3-32B 49.06 ± 1.12 58.39 ± 1.93 53.28 ± 1.62",
+      "bbox": [
+        126.60700225830078,
+        192.1797637939453,
+        479.992431640625,
+        235.37905883789062
+      ],
+      "topics": [
+        "a-react",
+        "a-autogen",
+        "a-react a-autogen",
+        "a-react a-autogen a-autogen",
+        "a-react a-react"
+      ],
+      "entities": [
+        "0.89",
+        "0.98",
+        "1.03 37.33",
+        "1.06",
+        "1.12 58.39",
+        "1.45 54.65",
+        "1.62",
+        "1.74 33.25",
+        "1.88",
+        "110",
+        "1518",
+        "2.01",
+        "2.17",
+        "28.52",
+        "31.21",
+        "32B",
+        "33.02",
+        "37.14",
+        "53.28",
+        "70B",
+        "A-",
+        "A-AutoGen+LLaMA3-"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-5",
+      "page_number": 6,
+      "order_in_page": 5,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Ours: AGENTICT2S 72.43 ± 1.24 76.21 ± 1.19 83.68 ± 0.39 875 ± 90",
+      "bbox": [
+        126.60700225830078,
+        240.7134552001953,
+        482.901611328125,
+        251.9981231689453
+      ],
+      "topics": [],
+      "entities": [
+        "0.39 875",
+        "1.19 83.68",
+        "1.24 76.21",
+        "72.43",
+        "90",
+        "AGENTICT2S"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-6",
+      "page_number": 6,
+      "order_in_page": 6,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-56",
+      "section_title": "Pattern-Driven SPARQL Synthesizer Agent",
+      "text": "Note: V = Vanilla LLM, R = Reasoning LLM, L = Large-Scale Pretrained Model, A = Agent Framework.",
+      "bbox": [
+        115.95899963378906,
+        262.93707275390625,
+        496.0446472167969,
+        271.9853515625
+      ],
+      "topics": [
+        "llm",
+        "large-scale",
+        "model",
+        "framework",
+        "agent"
+      ],
+      "entities": [
+        "Agent Framework",
+        "LLM",
+        "Scale Pretrained Model"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-7",
+      "page_number": 6,
+      "order_in_page": 7,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-59",
+      "section_title": "Ours",
+      "text": "V-LLaMA3-70B 15.08 ± 1.86↓ 16.05 ± 1.19↓ 13.82 ± 2.75↓ V-LLaMA3.3-70B 17.21 ± 1.43↓ 14.31 ± 0.80↓ 14.28 ± 0.76↓ V-L-GPT-4o 76.50 ± 2.93↑ 74.24 ± 1.03↑ 72.05 ± 0.82↑ V-L-DeepSeek-V3 69.76 ± 2.63↓ 68.22 ± 1.54↓ 63.56 ± 2.36↓",
+      "bbox": [
+        60.5166130065918,
+        338.4269714355469,
+        284.3554382324219,
+        371.70849609375
+      ],
+      "topics": [
+        "v-l-gpt- v-l-deepseek-",
+        "v-l-deepseek-",
+        "v- v-l-gpt- v-l-deepseek-",
+        "v- v-l-gpt-",
+        "v- v- v-l-gpt-"
+      ],
+      "entities": [
+        "0.76↓ V-L-GPT-4o 76.50",
+        "0.80↓",
+        "1.43↓",
+        "1.54↓",
+        "1.86↓",
+        "13.82",
+        "14.28",
+        "14.31",
+        "15.08",
+        "16.05",
+        "17.21",
+        "2.36↓",
+        "68.22",
+        "72.05",
+        "74.24",
+        "V-",
+        "V-L-",
+        "V-L-GPT-",
+        "V3"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-8",
+      "page_number": 6,
+      "order_in_page": 8,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-60",
+      "section_title": "R-Qwen3-32B",
+      "text": "R-Qwen3-32B 53.12 ± 2.64↓ 54.55 ± 2.08↓ 49.67 ± 0.67↓ R-QwQ-32B 56.09 ± 2.88↓ 53.73 ± 1.43↓ 51.82 ± 2.03↓ R-L-DeepSeek-R1 79.63 ± 2.67↑ 74.86 ± 1.52↑ 72.91 ± 0.94↑",
+      "bbox": [
+        60.51661682128906,
+        375.85101318359375,
+        284.3554382324219,
+        400.7001953125
+      ],
+      "topics": [
+        "r- r-qwq-",
+        "r- r-qwq- r-l-deepseek-",
+        "r-qwq-",
+        "r-qwq- r-l-deepseek-",
+        "r-l-deepseek-"
+      ],
+      "entities": [
+        "0.67↓",
+        "1.43↓",
+        "2.03↓",
+        "2.08↓ 49.67",
+        "2.64↓ 54.55",
+        "2.88↓ 53.73",
+        "51.82",
+        "56.09",
+        "72.91",
+        "74.86",
+        "79.63",
+        "R-",
+        "R-L-",
+        "R1"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-9",
+      "page_number": 6,
+      "order_in_page": 9,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-60",
+      "section_title": "R-Qwen3-32B",
+      "text": "Ours: AGENTICT2S 85.64 ± 1.06↑ 87.72 ± 1.28↑ 85.01 ± 2.33↑",
+      "bbox": [
+        60.51661682128906,
+        404.651611328125,
+        284.3785095214844,
+        413.3344421386719
+      ],
+      "topics": [],
+      "entities": [
+        "85.01",
+        "85.64",
+        "87.72",
+        "AGENTICT2S"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-10",
+      "page_number": 6,
+      "order_in_page": 10,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-63",
+      "section_title": "Figure 5: Comparison of knowledge graph allocation performance across models.",
+      "text": "V-LLaMA3-70B 21.31 ± 0.75↓ 25.12 ± 0.97↓ 25.83 ± 0.60↓ V-LLaMA3.3-70B 27.48 ± 2.00↓ 24.44 ± 1.72↓ 24.35 ± 1.55↓ V-L-GPT-4o 86.55 ± 1.24↑ 88.92 ± 1.07↑ 86.44 ± 1.57↑ V-L-DeepSeek-V3 61.39 ± 1.80↓ 67.23 ± 0.58↓ 62.64 ± 1.90↓",
+      "bbox": [
+        60.5166130065918,
+        465.1737365722656,
+        284.3554382324219,
+        498.4544677734375
+      ],
+      "topics": [
+        "v-l-gpt- v-l-deepseek-",
+        "v-l-deepseek-",
+        "v- v-l-gpt- v-l-deepseek-",
+        "v- v-l-gpt-",
+        "v- v- v-l-gpt-"
+      ],
+      "entities": [
+        "1.07↑ 86.44",
+        "1.90↓",
+        "2.00↓",
+        "21.31",
+        "24.35",
+        "24.44",
+        "25.12",
+        "25.83",
+        "27.48",
+        "62.64",
+        "67.23",
+        "86.55",
+        "88.92",
+        "V-",
+        "V-L-",
+        "V-L-GPT-",
+        "V3"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-11",
+      "page_number": 6,
+      "order_in_page": 11,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-63",
+      "section_title": "Figure 5: Comparison of knowledge graph allocation performance across models.",
+      "text": "R-Qwen3-32B 75.44 ± 1.28↓ 73.64 ± 1.00↓ 75.86 ± 1.53↓ R-QwQ-32B 67.49 ± 1.12↓ 72.98 ± 0.84↓ 68.28 ± 0.68↓ R-L-DeepSeek-R1 86.05 ± 0.81↑ 87.75 ± 1.46↑ 85.22 ± 1.89↑",
+      "bbox": [
+        60.51661682128906,
+        502.5977478027344,
+        284.3554382324219,
+        527.4469604492188
+      ],
+      "topics": [
+        "r- r-qwq-",
+        "r- r-qwq- r-l-deepseek-",
+        "r-qwq-",
+        "r-qwq- r-l-deepseek-",
+        "r-l-deepseek-"
+      ],
+      "entities": [
+        "0.84↓ 68.28",
+        "1.12↓",
+        "1.28↓ 73.64",
+        "75.86",
+        "85.22",
+        "86.05",
+        "87.75",
+        "R-",
+        "R-L-",
+        "R1"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-12",
+      "page_number": 6,
+      "order_in_page": 12,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-63",
+      "section_title": "Figure 5: Comparison of knowledge graph allocation performance across models.",
+      "text": "Ours: AGENTICT2S 97.14 ± 1.62↑ 96.99 ± 0.55↑ 97.91 ± 1.44↑",
+      "bbox": [
+        60.51661682128906,
+        531.3983154296875,
+        284.3785095214844,
+        540.0811767578125
+      ],
+      "topics": [],
+      "entities": [
+        "96.99",
+        "97.14",
+        "97.91",
+        "AGENTICT2S"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-13",
+      "page_number": 6,
+      "order_in_page": 13,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-63",
+      "section_title": "Figure 5: Comparison of knowledge graph allocation performance across models.",
+      "text": "• w/o Decomposer. Disables subgoal parsing; the full question is passed directly to the SPARQL generator. • w/o Allocator. Replaces graph selection with BM25 retrieval over the full KG pool. • w/o Synthesizer. Skips query generation; retrieved schema triples are returned as pseudoanswers. • w/o Verifier. Executes SPARQL queries without symbolic or counterfactual validation.",
+      "bbox": [
+        323.9830017089844,
+        518.021484375,
+        558.0047607421875,
+        611.9840698242188
+      ],
+      "topics": [
+        "sparql",
+        "executes sparql",
+        "executes sparql queries",
+        "counterfactual validation",
+        "decomposer disables"
+      ],
+      "entities": [
+        "BM25",
+        "Decomposer",
+        "KG",
+        "SPARQL",
+        "Synthesizer",
+        "Verifier"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-14",
+      "page_number": 6,
+      "order_in_page": 14,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-63",
+      "section_title": "Figure 5: Comparison of knowledge graph allocation performance across models.",
+      "text": "schema grounding, which enhance EA. On Waste-Ledger, which includes quantitative predicates and deeper ontologies, QSC gains reflect the effect of post-hoc decoding and structural validation. These results suggest that modular reasoning and symbolic validation, particularly subgoal decomposition and verification, are critical to scaling text-to-SPARQL to diverse and schema-rich KGs.",
+      "bbox": [
+        54.0,
+        566.5664672851562,
+        292.504638671875,
+        653.97802734375
+      ],
+      "topics": [
+        "validation",
+        "diverse schema-rich",
+        "diverse schema-rich kgs",
+        "includes quantitative",
+        "includes quantitative predicates"
+      ],
+      "entities": [
+        "EA",
+        "On Waste",
+        "QSC",
+        "SPARQL"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p6-15",
+      "page_number": 6,
+      "order_in_page": 15,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-65",
+      "section_title": "To assess the contribution of each component, we ablate the following modules",
+      "text": "All variants are evaluated on three random seeds, and the results are reported as mean ± standard deviation. As shown in Table 4, removing the subgoal decomposer leads to a sharp drop in EA from 72.4% to 23.7%, underscoring the importance of compositional parsing. Disabling the allocator similarly reduces performance, reflecting the impact of semantic drift when retrieval is not schema-aware. Omitting the verifier results in a 17% decline in EA, indicat-",
+      "bbox": [
+        319.4999694824219,
+        617.732421875,
+        558.0049438476562,
+        704.4070434570312
+      ],
+      "topics": [
+        "results",
+        "impact",
+        "compositional parsing",
+        "impact semantic",
+        "impact semantic drift"
+      ],
+      "entities": [
+        "17%",
+        "23.7%",
+        "72.4%",
+        "EA",
+        "Table 4",
+        "three"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-1",
+      "page_number": 7,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-65",
+      "section_title": "To assess the contribution of each component, we ablate the following modules",
+      "text": "Table 4: Ablation study on the contribution of key components in the AGENTICT2S framework. Results reported on the full evaluation set.",
+      "bbox": [
+        54.0,
+        53.446128845214844,
+        557.9964599609375,
+        75.71707153320312
+      ],
+      "topics": [
+        "components framework",
+        "components framework results",
+        "contribution",
+        "contribution key",
+        "contribution key components"
+      ],
+      "entities": [
+        "AGENTICT2S"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-2",
+      "page_number": 7,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-65",
+      "section_title": "To assess the contribution of each component, we ablate the following modules",
+      "text": "Ours w/o Decomposer Agent 23.68 ± 0.66 45.31 ± 0.19 45.42 ± 1.32 Ours w/o Allocator Agent 25.12 ± 0.18 31.02 ± 1.12 37.08 ± 0.36 Ours w/o Synthesizer Agent – – – Ours w/o Verifier Agent 55.12 ± 0.56 60.23 ± 1.10 66.17 ± 0.23 Ours w/o Agentic Collaborative 43.43 ± 0.78 52.56 ± 0.50 47.22 ± 0.16 Full AGENTICT2S 72.43 ± 1.24 76.21 ± 1.19 83.68 ± 0.39",
+      "bbox": [
+        145.61500549316406,
+        105.86177825927734,
+        466.3847351074219,
+        171.63710021972656
+      ],
+      "topics": [
+        "agent",
+        "decomposer agent",
+        "decomposer agent allocator",
+        "agentic",
+        "agentic collaborative"
+      ],
+      "entities": [
+        "0.18 31.02",
+        "0.19 45.42",
+        "0.23 Ours",
+        "0.36 Ours",
+        "0.39",
+        "0.50 47.22",
+        "0.66",
+        "0.78 52.56",
+        "1.10 66.17",
+        "1.12 37.08",
+        "1.19 83.68",
+        "1.24 76.21",
+        "1.32 Ours",
+        "23.68",
+        "25.12",
+        "43.43",
+        "55.12",
+        "60.23",
+        "72.43",
+        "AGENTICT2S",
+        "Agentic Collaborative",
+        "Allocator Agent",
+        "Decomposer",
+        "Decomposer Agent",
+        "Synthesizer Agent",
+        "Verifier",
+        "Verifier Agent"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-3",
+      "page_number": 7,
+      "order_in_page": 3,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-69",
+      "section_title": "Allocate KGs",
+      "text": "For product code found in the resources, which trade",
+      "bbox": [
+        68.95745849609375,
+        217.0916290283203,
+        151.01425170898438,
+        233.19749450683594
+      ],
+      "topics": [
+        "code resources",
+        "code resources trade",
+        "product code resources",
+        "resources trade",
+        "product"
+      ],
+      "entities": [],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-4",
+      "page_number": 7,
+      "order_in_page": 4,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-70",
+      "section_title": "U-Pilot",
+      "text": "in the resources, which HS trade codes co-occur with it building a",
+      "bbox": [
+        175.86842346191406,
+        221.5271453857422,
+        275.1323547363281,
+        237.6094512939453
+      ],
+      "topics": [
+        "hs trade",
+        "hs trade codes",
+        "building",
+        "co-occur building",
+        "codes co-occur building"
+      ],
+      "entities": [
+        "HS"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-5",
+      "page_number": 7,
+      "order_in_page": 5,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-70",
+      "section_title": "U-Pilot",
+      "text": "in the data sources? ➢For each CPA product code, which HS",
+      "bbox": [
+        318.07501220703125,
+        224.13525390625,
+        430.8222351074219,
+        238.90814208984375
+      ],
+      "topics": [
+        "cpa product",
+        "cpa product code",
+        "data sources cpa",
+        "code hs",
+        "product"
+      ],
+      "entities": [
+        "CPA",
+        "HS"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-6",
+      "page_number": 7,
+      "order_in_page": 6,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-71",
+      "section_title": "Error",
+      "text": "trade codes co-occur with it in the same data sources?",
+      "bbox": [
+        325.5814208984375,
+        238.76609802246094,
+        437.1912536621094,
+        253.53526306152344
+      ],
+      "topics": [
+        "co-occur data",
+        "co-occur data sources",
+        "codes co-occur data",
+        "co-occur",
+        "codes co-occur"
+      ],
+      "entities": [],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-7",
+      "page_number": 7,
+      "order_in_page": 7,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-71",
+      "section_title": "Error",
+      "text": "𝑆𝑃𝐴𝑅𝑄𝐿𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛 𝐶ℎ𝑒𝑐𝑘𝑎𝑛𝑑𝑀𝑜𝑑𝑖𝑓𝑦 𝐴𝑛𝑠𝑤𝑒𝑟𝐹𝑢𝑠𝑖𝑜𝑛& 𝑂𝑢𝑡𝑝𝑢𝑡",
+      "bbox": [
+        83.82414245605469,
+        271.43548583984375,
+        512.8938598632812,
+        282.0400695800781
+      ],
+      "topics": [],
+      "entities": [
+        "𝑆𝑃𝐴𝑅𝑄𝐿𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛 𝐶ℎ𝑒𝑐𝑘𝑎𝑛𝑑𝑀𝑜𝑑𝑖𝑓𝑦 𝐴𝑛𝑠𝑤𝑒𝑟𝐹𝑢𝑠𝑖𝑜𝑛& 𝑂𝑢𝑡𝑝𝑢𝑡"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-8",
+      "page_number": 7,
+      "order_in_page": 8,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-71",
+      "section_title": "Error",
+      "text": "iskg:hasCPACode iskg:cpaCode iskg:hasCPA",
+      "bbox": [
+        336.63623046875,
+        318.41375732421875,
+        386.32208251953125,
+        340.4900207519531
+      ],
+      "topics": [
+        "iskg",
+        "hascpa",
+        "hascpacode",
+        "hascpacode iskg",
+        "hascpacode iskg cpacode"
+      ],
+      "entities": [
+        "cpaCode"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-9",
+      "page_number": 7,
+      "order_in_page": 9,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-71",
+      "section_title": "Error",
+      "text": "SELECT DISTINCT ?cpaCode WHERE { …………. } VALUES ?hsProp { iskg:nonExistentProperty } GROUP BY ?cpaCode ?hsCode } …………..",
+      "bbox": [
+        435.27130126953125,
+        288.6925964355469,
+        524.792724609375,
+        347.3155517578125
+      ],
+      "topics": [
+        "cpacode",
+        "distinct cpacode",
+        "distinct cpacode values",
+        "hscode",
+        "hsprop"
+      ],
+      "entities": [
+        "BY",
+        "DISTINCT",
+        "GROUP",
+        "SELECT",
+        "VALUES",
+        "WHERE",
+        "nonExistentProperty"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-10",
+      "page_number": 7,
+      "order_in_page": 10,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-71",
+      "section_title": "Error",
+      "text": "CPA Code cpa:011150 corresponds to HS Code hs:100610 ………",
+      "bbox": [
+        116.65304565429688,
+        323.66632080078125,
+        223.4898681640625,
+        347.73114013671875
+      ],
+      "topics": [
+        "cpa",
+        "code",
+        "hs code hs",
+        "code cpa",
+        "code cpa corresponds"
+      ],
+      "entities": [
+        "CPA",
+        "HS",
+        "HS Code hs:100610"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-11",
+      "page_number": 7,
+      "order_in_page": 11,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-71",
+      "section_title": "Error",
+      "text": "SELECT DISTINCT ?cpaCode WHERE { …………. } VALUES ?hsProp { iskg:nonExistentProperty } GROUP BY ?cpaCode ?hsCode } …………..",
+      "bbox": [
+        242.28021240234375,
+        290.3533020019531,
+        331.82806396484375,
+        348.97625732421875
+      ],
+      "topics": [
+        "cpacode",
+        "distinct cpacode",
+        "distinct cpacode values",
+        "hscode",
+        "hsprop"
+      ],
+      "entities": [
+        "BY",
+        "DISTINCT",
+        "GROUP",
+        "SELECT",
+        "VALUES",
+        "WHERE",
+        "nonExistentProperty"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-12",
+      "page_number": 7,
+      "order_in_page": 12,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-73",
+      "section_title": "answer fusion in the overall pipeline.",
+      "text": "ing that many syntactically valid queries are semantically underspecified. These results confirm the role of modular reasoning and symbolic validation in achieving accurate and robust SPARQL generation.",
+      "bbox": [
+        53.999969482421875,
+        402.5344543457031,
+        292.5046691894531,
+        445.3730773925781
+      ],
+      "topics": [
+        "ing",
+        "ing syntactically",
+        "ing syntactically valid",
+        "confirm",
+        "confirm role"
+      ],
+      "entities": [
+        "SPARQL"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-13",
+      "page_number": 7,
+      "order_in_page": 13,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-74",
+      "section_title": "Qualitative Analysis",
+      "text": "Conclusion We have presented AGENTICT2S, a multi-agent framework for text-to-SPARQL generation over heterogeneous KGs. The modular architecture decomposes the task into subgoal parsing, graph allocation, schema-aware synthesis, verification, and aggregation, enabling compositional reasoning across diverse schemas. Then, the combination of grammarconstrained decoding with post-hoc repair ensures high query executability, while modularity enables effective scaling. Evaluation on three circular economy datasets demonstrates improvements in execution accuracy, query validity, and prompt efficiency over strong baselines. The results support the use of multi-agent designs for structured question answering in settings involving multiple graphs, variable ontologies, and domain-specific constraints. Beyond technical performance, AGENTICT2S provides a practical tool for decision-making in the circular economy. Its ability to compose and validate SPARQL queries across fragmented KGs enables stakeholders, such as policy analysts, sustainability officers, and industrial planners, to answer complex questions about resource reuse, emissions trade-offs, and regulatory alignment. By surfacing structured insights from heterogeneous datasets, the framework supports data-informed actions in sustainability reporting, materials tracking, and circular supply chain optimization.",
+      "bbox": [
+        319.4999694824219,
+        423.82806396484375,
+        558.0048217773438,
+        701.412841796875
+      ],
+      "topics": [
+        "enables",
+        "circular",
+        "sustainability",
+        "datasets",
+        "economy"
+      ],
+      "entities": [
+        "AGENTICT2S",
+        "Conclusion We",
+        "SPARQL",
+        "three"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p7-14",
+      "page_number": 7,
+      "order_in_page": 14,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-74",
+      "section_title": "Qualitative Analysis",
+      "text": "Figure 6 provides a step-by-step example of query processing under the AGENTICT2S framework. The initial input is incomplete and underspecified: “For product code found in the resources, which trade codes co-occur with it?” The system initiates a clarification step, reformulating the input into a fully specified intent that references waste classification codes and requests cooccurrence information. The clarified question is decomposed into subgoals, which are dispatched to the appropriate KGs (EU-Pilot and Waste-Ledger) based on schema compatibility. SPARQL queries are then generated for each subgoal using patternbased templates. During verification, a syntactic and semantic check identifies a non-existent predicate in the initial output. The system modifies the query accordingly, replacing the faulty predicate with the correct one. Following validation, verified queries are executed and their outputs aggregated. The final output includes both the SPARQL representation and a natural language statement indicating the mapping between CPA code 011150 and HS code 100610. The example illustrates the role of clarification, decomposition, schema validation, and multi-graph",
+      "bbox": [
+        53.999969482421875,
+        474.05743408203125,
+        292.5050048828125,
+        704.4069213867188
+      ],
+      "topics": [
+        "code",
+        "initial",
+        "clarification",
+        "input",
+        "output"
+      ],
+      "entities": [
+        "100610",
+        "AGENTICT2S",
+        "CPA",
+        "EU-",
+        "EU-Pilot",
+        "HS",
+        "SPARQL"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p8-1",
+      "page_number": 8,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-74",
+      "section_title": "Qualitative Analysis",
+      "text": "T.; et al. 2020. Retrieval-augmented Generation for Knowledge-intensive NLP Tasks. Advances in Neural Information Processing Systems, 33: 9459–9474. Li, G.; Hammoud, H.; Itani, H.; Khizbullin, D.; and Ghanem, B. 2023. Camel: Communicative agents for” mind” exploration of large language model society. Advances in Neural Information Processing Systems, 36: 51991–52008. Liu, A.; Feng, B.; Xue, B.; Wang, B.; Wu, B.; Lu, C.; Zhao, C.; Deng, C.; Zhang, C.; Ruan, C.; et al. 2024. Deepseek-v3 technical report. arXiv preprint arXiv:2412.19437. Meyer, L.-P.; Frey, J.; Brei, F.; and Arndt, N. 2024. Assessing SPARQL capabilities of large language models. arXiv preprint arXiv:2409.05925. Min, B.; Ross, H.; Sulem, E.; Veyseh, A. P. B.; Nguyen, T. H.; Sainz, O.; Agirre, E.; Heintz, I.; and Roth, D. 2023. Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey. ACM Computing Surveys, 56(2): 1–40. OpenAI. 2024. GPT-4o Technical Report. https://openai. com/index/gpt-4o. OpenAI Technical Report. Press, O.; Zhang, M.; Min, S.; Schmidt, L.; Smith, N. A.; and Lewis, M. 2022. Measuring and narrowing the compositionality gap in language models. arXiv preprint arXiv:2210.03350. Qwen Team. 2024. Qwen3: A Family of Open-Source Language Models by Alibaba Cloud. https://github.com/ QwenLM/Qwen. Alibaba Cloud, Technical Report. Saxena, A.; Tripathi, A.; and Talukdar, P. 2020. Improving Multi-Hop Question Answering over Knowledge Graphs Using Knowledge Base Embeddings. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 4498–4507. Touvron, H.; et al. 2024. LLaMA 3: Open Foundation and Instruction Models. https://ai.meta.com/blog/meta-llama-3. Meta AI. Tran, K.-T.; Dao, D.; Nguyen, M.-D.; Pham, Q.-V.; O’Sullivan, B.; and Nguyen, H. D. 2025. Multi-agent Collaboration Mechanisms: A Survey of LLMs. arXiv preprint arXiv:2501.06322. W3C. 2013. SPARQL 1.1 Query Language. https://www. w3.org/TR/sparql11-query/. W3C Recommendation. Wang, F.; Wan, X.; Sun, R.; Chen, J.; and Arık, S. ¨O. 2024. Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models. arXiv preprint arXiv:2410.07176. Wei, J.; Wang, X.; Schuurmans, D.; Bosma, M.; Xia, F.; Chi, E.; Le, Q. V.; Zhou, D.; et al. 2022. Chain-ofthought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35: 24824–24837. Wu, J.; Zhu, J.; Qi, Y.; Chen, J.; Xu, M.; Menolascina, F.; and Grau, V. 2024a. Medical Graph RAG: Towards Safe Medical Large Language Model via Graph Retrievalaugmented Generation. arXiv preprint arXiv:2408.04187.",
+      "bbox": [
+        319.4999084472656,
+        56.40718078613281,
+        558.0048217773438,
+        704.4063720703125
+      ],
+      "topics": [
+        "arxiv",
+        "language",
+        "arxiv preprint",
+        "preprint arxiv",
+        "preprint"
+      ],
+      "entities": [
+        "1.1",
+        "1–40",
+        "2013",
+        "2020",
+        "2022",
+        "2024",
+        "24824–24837",
+        "33",
+        "35",
+        "36",
+        "4498–4507",
+        "51991–52008",
+        "9459–9474",
+        "A Family of Open-Source Language Models",
+        "A. P. B.",
+        "ACM",
+        "AI",
+        "Agirre",
+        "Alibaba Cloud",
+        "Annual Meeting",
+        "Arndt",
+        "Arık",
+        "B.",
+        "B. 2023",
+        "Bosma",
+        "Chen",
+        "Chi",
+        "Collaboration Mechanisms",
+        "Computational Linguistics",
+        "Computing Surveys",
+        "D.",
+        "D. 2023",
+        "Dao",
+        "Deepseek",
+        "Deng",
+        "F.",
+        "Feng",
+        "Frey",
+        "G.",
+        "GPT-",
+        "Generation for Knowledge-intensive NLP Tasks",
+        "Ghanem",
+        "Graph RAG:",
+        "Graph Retrievalaugmented Generation",
+        "Grau",
+        "H.",
+        "Hammoud",
+        "Hop Question Answering",
+        "I.",
+        "Improving Multi",
+        "Improving Multi-Hop Question Answering",
+        "In Proceedings",
+        "Instruction Models",
+        "Itani",
+        "J.",
+        "Khizbullin",
+        "Knowledge Conflicts",
+        "Knowledge Graphs Using Knowledge Base Embeddings",
+        "L.",
+        "Language Models",
+        "Large Language Models",
+        "Large Pre",
+        "Large Pre-trained",
+        "Le",
+        "Lewis",
+        "Li",
+        "Liu",
+        "Lu",
+        "Medical Graph",
+        "Menolascina",
+        "Meta AI",
+        "N. A.",
+        "NLP",
+        "Natural Language Processing",
+        "Neural Information Processing Systems",
+        "Nguyen",
+        "Nguyen, H. D. 2025",
+        "Open Foundation",
+        "OpenAI",
+        "OpenAI Technical Report",
+        "Overcoming Imperfect Retrieval Augmentation",
+        "Pham",
+        "Q. V.",
+        "Query Language",
+        "Qwen Team",
+        "Qwen3",
+        "QwenLM/Qwen",
+        "R.",
+        "RAG",
+        "Recent Advances",
+        "Ross",
+        "Roth",
+        "Ruan",
+        "SPARQL",
+        "Sainz",
+        "Saxena",
+        "Schmidt",
+        "Schuurmans",
+        "Smith",
+        "Source Language Models",
+        "Sulem",
+        "T. H.",
+        "TR",
+        "Talukdar",
+        "Technical Report",
+        "Touvron",
+        "Towards Safe Medical Large Language Model",
+        "Tran",
+        "Tripathi",
+        "W3C",
+        "W3C.",
+        "Wan",
+        "Wang",
+        "Wei",
+        "Wu",
+        "X.",
+        "Xia",
+        "Xu",
+        "Xue",
+        "Y.",
+        "Zhang",
+        "Zhao",
+        "Zhou",
+        "Zhu",
+        "al",
+        "the Association for Computational Linguistics"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p8-2",
+      "page_number": 8,
+      "order_in_page": 2,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-74",
+      "section_title": "Qualitative Analysis",
+      "text": "References Atiku, S. O. 2020. Knowledge Management for the Circular Economy. In Handbook of Research on Entrepreneurship Development and Opportunities in Circular Economy, 520– 537. IGI Global. Barbosa, R.; Santos, R.; and Novais, P. 2024. Collaborative Problem-solving with LLM: a Multi-agent System Approach to Solve Complex Tasks Using Autogen. In International Conference on Practical Applications of Agents and Multi-Agent Systems, 203–214. Springer. Cui, Y.; Sun, Z.; and Hu, W. 2024. A Prompt-based Knowledge Graph Foundation Model for Universal In-Context Reasoning. Advances in Neural Information Processing Systems, 37: 7095–7124. Edge, D.; Trinh, H.; Cheng, N.; Bradley, J.; Chao, A.; Mody, A.; Truitt, S.; Metropolitansky, D.; Ness, R. O.; and Larson, J. 2024. From Local to Global: A Graph RAG Approach to Query-focused Summarization. arXiv preprint arXiv:2404.16130. Gao, Y.; Xiong, Y.; Gao, X.; Jia, K.; Pan, J.; Bi, Y.; Dai, Y.; Sun, J.; Wang, H.; and Wang, H. 2023. Retrieval-augmented Generation for Large Language Models: A Survey. arXiv preprint arXiv:2312.10997, 2(1). Groq, Inc. 2024. Groq API and LPU Inference Platform. https://groq.com. Accessed: 2024-07-29. Guo, T.; Chen, X.; Wang, Y.; Chang, R.; Pei, S.; Chawla, N. V.; Wiest, O.; and Zhang, X. 2024. Large Language Model based Multi-agents: A Survey of Progress and Challenges. arXiv preprint arXiv:2402.01680. Han, H.; Wang, Y.; Shomer, H.; Guo, K.; Ding, J.; Lei, Y.; Halappanavar, M.; Rossi, R. A.; Mukherjee, S.; Tang, X.; et al. 2024. Retrieval-augmented Generation with Graphs (GraphRAG). arXiv preprint arXiv:2501.00309. He, B.; Chen, N.; He, X.; Yan, L.; Wei, Z.; Luo, J.; and Ling, Z.-H. 2024. Retrieving, Rethinking and Revising: The Chain-of-Verification can Improve Retrieval Augmented Generation. arXiv preprint arXiv:2410.05801. Hong, S.; Zhuge, M.; Chen, J.; Zheng, X.; Cheng, Y.; Wang, J.; Zhang, C.; Wang, Z.; Yau, S. K. S.; Lin, Z.; et al. 2023. MetaGPT: Meta programming for a multi-agent collaborative framework. In The Twelfth International Conference on Learning Representations. Ji, Y.; Wu, K.; Li, J.; Chen, W.; Zhong, M.; Jia, X.; and Zhang, M. 2024. Retrieval and Reasoning on KGs: Integrate Knowledge Graphs into Large Language Models for Complex Question Answering. In Findings of the Association for Computational Linguistics: EMNLP 2024, 7598–7610. Ji, Z.; Lee, N.; Frieske, R.; Yu, T.; Su, D.; Xu, Y.; Ishii, E.; Bang, Y. J.; Madotto, A.; and Fung, P. 2023. Survey of Hallucination in Natural Language Generation. ACM Computing Surveys, 55(12): 1–38. LangGraph Contributors. 2024. LangGraph: Multi-Agent Workflow Framework for LLMs. https://www.langgraph. dev. Accessed: 2024-07-29. Lewis, P.; Perez, E.; Piktus, A.; Petroni, F.; Karpukhin, V.; Goyal, N.; K¨uttler, H.; Lewis, M.; Yih, W.-t.; Rockt¨aschel,",
+      "bbox": [
+        53.999969482421875,
+        54.78716278076172,
+        292.504638671875,
+        704.40673828125
+      ],
+      "topics": [
+        "arxiv",
+        "wang",
+        "arxiv preprint",
+        "arxiv preprint arxiv",
+        "preprint"
+      ],
+      "entities": [
+        "1–38",
+        "2(1",
+        "2023",
+        "2024",
+        "2024-07-29",
+        "203–214",
+        "37",
+        "520",
+        "537",
+        "7095–7124",
+        "7598–7610",
+        "ACM",
+        "API",
+        "Agent Systems",
+        "Agent Workflow Framework",
+        "B.",
+        "Bang",
+        "Bradley",
+        "Challenges",
+        "Chang",
+        "Chao",
+        "Chawla",
+        "Chen",
+        "Cheng",
+        "Circular Economy",
+        "Collaborative Problem",
+        "Complex Question Answering",
+        "Computational Linguistics",
+        "Computing Surveys",
+        "Context Reasoning",
+        "Cui",
+        "D.",
+        "Dai",
+        "Ding",
+        "EMNLP",
+        "Entrepreneurship Development",
+        "Frieske",
+        "From Local",
+        "Fung",
+        "Gao",
+        "Generation for Large Language Models",
+        "Goyal",
+        "Groq",
+        "Groq API",
+        "Guo",
+        "H. 2023",
+        "H.; Lewis",
+        "Halappanavar",
+        "Hallucination in Natural Language Generation",
+        "Han",
+        "Hu",
+        "IGI",
+        "IGI Global",
+        "Improve Retrieval Augmented Generation",
+        "In Findings",
+        "In Handbook",
+        "In International Conference",
+        "In The Twelfth International Conference",
+        "Inference Platform",
+        "Integrate Knowledge Graphs",
+        "Ishii",
+        "J.",
+        "J. 2024",
+        "Ji",
+        "Jia",
+        "K.",
+        "Karpukhin",
+        "Knowledge Graph Foundation Model",
+        "Knowledge Graph Foundation Model for Universal In-Context Reasoning",
+        "Knowledge Management",
+        "L.",
+        "LLM",
+        "LPU",
+        "LPU Inference Platform",
+        "LangGraph",
+        "LangGraph Contributors",
+        "Language Model",
+        "Large Language Model",
+        "Large Language Models",
+        "Larson",
+        "Learning Representations",
+        "Lee",
+        "Lei",
+        "Lewis",
+        "Li",
+        "Lin",
+        "Ling",
+        "Luo",
+        "Madotto",
+        "Metropolitansky",
+        "Mukherjee",
+        "Multi",
+        "N.",
+        "N. V.",
+        "Natural Language Generation",
+        "Neural Information Processing Systems",
+        "Novais",
+        "Pan",
+        "Pei",
+        "Perez",
+        "Piktus",
+        "Practical Applications",
+        "Query",
+        "R.",
+        "R. A.",
+        "R. O.",
+        "RAG",
+        "References Atiku",
+        "Rethinking",
+        "Rockt¨aschel",
+        "Rossi",
+        "S.",
+        "S. K. S.",
+        "S. O. 2020",
+        "Santos",
+        "Solve Complex Tasks Using Autogen",
+        "Su",
+        "Summarization",
+        "Sun",
+        "System Approach",
+        "T.",
+        "Tang",
+        "The Chain",
+        "The Twelfth International Conference on Learning Representations",
+        "Trinh",
+        "Truitt",
+        "Universal In",
+        "W.",
+        "Wang",
+        "Wei",
+        "Wiest",
+        "Workflow Framework",
+        "Wu",
+        "X.",
+        "X. 2024",
+        "Xiong",
+        "Xu",
+        "Y.",
+        "Y. J.",
+        "Yan",
+        "Yau",
+        "Yu",
+        "Z.",
+        "Zhang",
+        "Zheng",
+        "Zhong",
+        "Zhuge",
+        "al",
+        "dev",
+        "the Association for Computational Linguistics"
+      ],
+      "claims": []
+    },
+    {
+      "paragraph_id": "agenticframeworkfort2spar-andut4q-p9-1",
+      "page_number": 9,
+      "order_in_page": 1,
+      "section_id": "agenticframeworkfort2spar-andut4q-section-74",
+      "section_title": "Qualitative Analysis",
+      "text": "Wu, Q.; Bansal, G.; Zhang, J.; Wu, Y.; Li, B.; Zhu, E.; Jiang, L.; Zhang, X.; Zhang, S.; Liu, J.; et al. 2024b. Autogen: Enabling next-gen LLM applications via multi-agent conversations. In First Conference on Language Modeling. Wu, R.; Lee, Y.; Shu, F.; Xu, D.; Hwang, S.-w.; Yao, Z.; He, Y.; and Yan, F. 2025. ComposeRAG: A Modular and Composable RAG for Corpus-Grounded Multi-Hop Question Answering. arXiv preprint arXiv:2506.00232. Xu, S.; Pang, L.; Shen, H.; Cheng, X.; and Chua, T.-S. 2024. Search-in-the-Chain: Interactively Enhancing Large Language Models with Search for Knowledge-intensive Tasks. In Proceedings of the ACM Web Conference 2024, 1362– 1373. Yang, Y.; Chai, H.; Shao, S.; Song, Y.; Qi, S.; Rui, R.; and Zhang, W. 2025. Agentnet: Decentralized Evolutionary Coordination for LLM-based Multi-agent Systems. arXiv preprint arXiv:2504.00587. Yao, S.; Zhao, J.; Yu, D.; Du, N.; Shafran, I.; Narasimhan, K.; and Cao, Y. 2023. ReAct: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR). Yasunaga, M.; Ren, H.; Bosselut, A.; Liang, P.; and Leskovec, J. 2021. QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 535–546. Yih, S. W.-t.; Chang, M.-W.; He, X.; and Gao, J. 2015. Semantic Parsing via Staged Query Graph Generation: Question Answering with Knowledge Base. In Proceedings of the Joint Conference of the 53rd Annual Meeting of the ACL and the 7th International Joint Conference on Natural Language Processing of the AFNLP. Zhao, X.; Gao, F.; Song, X.; Chen, Y.; Yang, R.; Fu, Y.; Wang, Y.; Iwasawa, Y.; Matsuo, Y.; and Li, I. 2025. ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA. arXiv:2503.06951.",
+      "bbox": [
+        53.999961853027344,
+        56.40748596191406,
+        292.5046691894531,
+        478.3247375488281
+      ],
+      "topics": [
+        "conference",
+        "arxiv",
+        "zhang",
+        "language",
+        "proceedings"
+      ],
+      "entities": [
+        "2024",
+        "2024, 1362– 1373",
+        "2024b",
+        "535–546",
+        "53rd",
+        "7th",
+        "ACL",
+        "ACM",
+        "AFNLP",
+        "Agent Reasoning",
+        "Annual Meeting",
+        "B.",
+        "Bosselut",
+        "Cao",
+        "Chai",
+        "Chang",
+        "Chen",
+        "Cheng",
+        "Chua",
+        "ComposeRAG",
+        "Computational Linguistics",
+        "Corpus-Grounded Multi-Hop Question Answering",
+        "D.",
+        "Decentralized Evolutionary Coordination",
+        "Du",
+        "Enhanced Multi",
+        "F. 2025",
+        "First Conference on Language Modeling",
+        "Fu",
+        "G.",
+        "Gao",
+        "Grounded Multi",
+        "Hop Question Answering",
+        "Human Language Technologies",
+        "Hwang",
+        "I.",
+        "ICLR",
+        "In First Conference",
+        "In International Conference",
+        "In Proceedings",
+        "Interactively Enhancing Large Language Models",
+        "International Conference on Learning Representations",
+        "International Joint Conference",
+        "J.",
+        "J. 2015",
+        "Jiang",
+        "Joint Conference",
+        "K.",
+        "Knowledge Base",
+        "Knowledge Graphs",
+        "L.",
+        "LLM",
+        "LLM-",
+        "Language Modeling",
+        "Language Models",
+        "Learning Representations",
+        "Lee",
+        "Leskovec",
+        "Li",
+        "Liang",
+        "Liu",
+        "Matsuo",
+        "Modular",
+        "Multi",
+        "Narasimhan",
+        "Natural Language Processing",
+        "North American Chapter",
+        "Pang",
+        "QA",
+        "QA-GNN",
+        "Qi",
+        "Question Answering",
+        "R.",
+        "RAG",
+        "Reversible Multi",
+        "Rui",
+        "S.",
+        "Semantic Parsing",
+        "Shafran",
+        "Shao",
+        "Shen",
+        "Shu",
+        "Song",
+        "Staged Query Graph Generation",
+        "Tasks",
+        "Wang",
+        "Web Conference",
+        "Wu",
+        "X.",
+        "Xu",
+        "Y.",
+        "Y. 2023",
+        "Yan",
+        "Yang",
+        "Yao",
+        "Yasunaga",
+        "Yu",
+        "Z.",
+        "Zhang",
+        "Zhao",
+        "Zhu",
+        "al",
+        "the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+      ],
+      "claims": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+services:
+  fuseki:
+    image: stain/jena-fuseki:latest
+    container_name: document-semantics-fuseki
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./fuseki/shiro.ini:/fuseki/shiro.ini
+      - ./fuseki/databases:/fuseki/databases
+    command:
+      - /jena-fuseki/fuseki-server
+      - --loc=/fuseki/databases/documents
+      - --update
+      - /documents
+    restart: unless-stopped

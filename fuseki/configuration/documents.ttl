@@ -1,0 +1,20 @@
+@prefix :        <#> .
+@prefix fuseki:  <http://jena.apache.org/fuseki#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tdb2:    <http://jena.apache.org/2016/tdb#> .
+
+[] rdf:type fuseki:Server ;
+   fuseki:services ( :documents ) .
+
+:documents rdf:type fuseki:Service ;
+    fuseki:name "documents" ;
+    fuseki:serviceQuery "query" , "sparql" ;
+    fuseki:serviceUpdate "update" ;
+    fuseki:serviceUpload "upload" ;
+    fuseki:serviceReadGraphStore "data" ;
+    fuseki:serviceReadWriteGraphStore "data" ;
+    fuseki:dataset :documentsDataset .
+
+:documentsDataset rdf:type tdb2:DatasetTDB2 ;
+    tdb2:location "/fuseki/databases/documents" .
+

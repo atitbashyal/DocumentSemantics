@@ -1,0 +1,87 @@
+{% extends "documents/base.html" %}
+
+{% block content %}
+<div class="card">
+  <h2>{{ document.title|default:document.source_file.name }}</h2>
+  <p class="muted">Source file: {{ document.source_file.name }}</p>
+  <p>
+    <span class="badge {% if document.status == 'READY' %}ready{% elif document.status == 'FAILED' %}failed{% else %}pending{% endif %}">{{ document.get_status_display }}</span>
+  </p>
+  <p class="small muted">Triples: {{ document.triple_count }} · Paragraphs: {{ document.paragraph_count }} · Sections: {{ document.section_count }}</p>
+  {% if document.graph_uri %}
+    <p class="small muted">Stored in {{ document.storage_backend }} as <code>{{ document.graph_uri }}</code>{% if document.fuseki_dataset %} on dataset <code>{{ document.fuseki_dataset }}</code>{% endif %}</p>
+  {% endif %}
+  {% if document.error_message %}<p class="error">{{ document.error_message }}</p>{% endif %}
+  <p>
+    {% if document.graph_file %}<a href="{{ document.graph_file.url }}">Download graph.ttl</a>{% endif %}
+    {% if document.summary_file %} · <a href="{{ document.summary_file.url }}">Download document_summary.json</a>{% endif %}
+  </p>
+</div>
+
+<div class="grid">
+  <div>
+    <div class="card">
+      <h3>Query interface</h3>
+      <p class="muted">Use guided query modes for the baseline use cases.</p>
+      <form method="post" action="{% url 'documents:run_builtin_query' document.pk %}">
+        {% csrf_token %}
+        {{ builtin_form.as_p }}
+        <button type="submit">Run query</button>
+      </form>
+      {% if builtin_error %}<p class="error">{{ builtin_error }}</p>{% endif %}
+      {% if builtin_summary %}<pre>{{ builtin_summary }}</pre>{% endif %}
+      {% if builtin_results %}
+        <div class="result-grid">
+          {% for row in builtin_results %}
+            <div class="result-box">
+              {% for key, value in row.items %}
+                <div><strong>{{ key }}:</strong> {{ value }}</div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div>
+    <div class="card">
+      <h3>Raw SPARQL</h3>
+      <p class="muted">Use this for direct interaction with the created knowledge graph. Queries default to this document's named graph unless you explicitly add your own graph targeting.</p>
+      <form method="post" action="{% url 'documents:run_raw_sparql' document.pk %}">
+        {% csrf_token %}
+        {{ sparql_form.as_p }}
+        <button type="submit" class="secondary">Run SPARQL</button>
+      </form>
+      {% if sparql_error %}<p class="error">{{ sparql_error }}</p>{% endif %}
+      {% if sparql_results %}
+        <div class="result-grid">
+          {% for row in sparql_results %}
+            <div class="result-box">
+              {% for key, value in row.items %}
+                <div><strong>{{ key }}:</strong> {{ value }}</div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="card">
+      <h3>Example SPARQL</h3>
+      <pre>PREFIX doc: &lt;http://example.org/doc#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT ?pageNumber ?paragraphLabel ?text
+WHERE {
+  ?paragraph a doc:Paragraph ;
+             doc:pageNumber ?pageNumber ;
+             rdfs:label ?paragraphLabel ;
+             doc:text ?text .
+}
+ORDER BY ?pageNumber ?paragraphLabel
+LIMIT 10</pre>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+PREFIX doc: <http://example.org/doc#>
+PREFIX dom: <http://example.org/domain#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?pageNumber ?sectionTitle ?paragraphLabel ?text
+WHERE {
+  ?paragraph a doc:Paragraph ;
+             doc:pageNumber ?pageNumber ;
+             rdfs:label ?paragraphLabel ;
+             doc:text ?text ;
+             doc:inSection ?section .
+  ?section rdfs:label ?sectionTitle .
+  OPTIONAL {
+    ?paragraph dom:hasTopic ?topic .
+    ?topic rdfs:label ?topicLabel .
+  }
+  FILTER(
+    CONTAINS(LCASE(STR(?text)), "transformer") ||
+    CONTAINS(LCASE(STR(?sectionTitle)), "transformer") ||
+    (BOUND(?topicLabel) && CONTAINS(LCASE(STR(?topicLabel)), "transformer"))
+  )
+}
+ORDER BY ?pageNumber ?paragraphLabel

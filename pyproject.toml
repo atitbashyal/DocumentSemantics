@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "document-semantics-mvp"
+version = "0.2.0"
+description = "Local MVP for PDF document structure + semantics to RDF, with a Django UI"
+requires-python = ">=3.10"
+
+dependencies = [
+  "Django>=6.0,<6.1",
+  "PyMuPDF>=1.27.0",
+  "python-dotenv>=1.0.0",
+  "rdflib>=7.1.0",
+  "spacy>=3.8.0",
+  "scikit-learn>=1.5.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,62 @@
+{% extends "documents/base.html" %}
+
+{% block content %}
+<div class="grid">
+  <div class="card">
+    <h2>Upload document and create knowledge graph</h2>
+    <p class="muted">This local Django UI accepts an English research-paper PDF, runs the extraction pipeline, stores the RDF graph in Fuseki, and keeps local Turtle/JSON artifacts for debugging and download.</p>
+    <form method="post" action="{% url 'documents:upload' %}" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ upload_form.as_p }}
+      <button type="submit">Upload and build graph</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>What this UI supports</h2>
+    <ul>
+      <li>Upload a PDF and create the RDF knowledge graph</li>
+      <li>Track graph status and extraction counts</li>
+      <li>Open a document detail page and query the graph</li>
+      <li>Run both guided queries and raw SPARQL</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Created knowledge graphs</h2>
+  {% if documents %}
+    <table>
+      <thead>
+        <tr>
+          <th>Document</th>
+          <th>Status</th>
+          <th>Triples</th>
+          <th>Paragraphs</th>
+          <th>Sections</th>
+          <th>Created</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for document in documents %}
+          <tr>
+            <td>
+              <a href="{% url 'documents:detail' document.pk %}">{{ document.title|default:document.source_file.name }}</a>
+              <div class="muted small">{{ document.source_file.name }}</div>
+            </td>
+            <td>
+              <span class="badge {% if document.status == 'READY' %}ready{% elif document.status == 'FAILED' %}failed{% else %}pending{% endif %}">{{ document.get_status_display }}</span>
+            </td>
+            <td>{{ document.triple_count }}</td>
+            <td>{{ document.paragraph_count }}</td>
+            <td>{{ document.section_count }}</td>
+            <td>{{ document.created_at }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="muted">No documents uploaded yet.</p>
+  {% endif %}
+</div>
+{% endblock %}
